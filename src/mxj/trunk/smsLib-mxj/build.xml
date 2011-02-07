@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="smsLib-mxj" default="makejar" basedir=".">
+	<target name="makejar" description="Create a jar file.">
+		<jar jarfile="./dist/smsLib-mxj.jar">
+			<fileset dir="./bin" includes="**/*.class" excludes="**/Test*.class" />
+		</jar>
+	</target>
+</project>

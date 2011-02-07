@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="mawLib-mxj" default="makejar" basedir=".">
+	<target name="makejar" description="Create a jar file.">
+
+		<!-- get the latest copy of commonlib -->
+
+		<jar jarfile="./dist/mawLib-mxj.jar">
+			<fileset dir="./bin" includes="**/*.class" excludes="**/Test*.class" />
+			<fileset dir="./bin" includes="**/*.txt" />
+
+		</jar>
+
+		<!-- copy it to the mawlib dist directory -->
+		<copy file="./dist/mawLib-mxj.jar" todir="../../../../dist/mawLib/mawLib-Support/java/" />
+
+		<!-- temporary copy in process stuff -->
+		<copy file="/Users/bakercp/Programming/java/JavaPackages/commonLib/commonLib.jar" todir="../../../../dist/mawLib/mawLib-Support/java/libs/" />
+		<copy file="/Users/bakercp/Programming/java/JavaPackages/google/GV4J/GV4J.jar" todir="../../../../dist/mawLib/mawLib-Support/java/libs/" />
+
+	</target>
+</project>
