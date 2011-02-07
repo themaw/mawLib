@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+
+<!-- N.B. This xml schema is loosely based upon the *.maxref xml used in the Cycling 74 -->
+<!-- documentation. The *.maxref schema is used by objects such as [autohelp] but remains --> 
+<!-- undocumented.  When the [autohelp] api is released, mawLib will likely transition to -->
+<!-- this official api.  More info here: http://bit.ly/Sw17Z. -->
+<!-- 1 Sept, 2009: Christopher Baker <info@christopherbaker.net> -->
+
+<!-- REQUIRED: object root, object group, type:(external, mxj, js, abstraction), tags:(comma separated), library: website -->
+<object name="maw.data.twitter" 
+		group="data"
+		type="mxj" 
+		tags="help,template"
+		url="http://dev.minneapolisartonwheels.org/mawLib/maw.data.twitter"> <!-- documentation page -->
+	
+	<!-- REQUIRED: a single line description -->	
+	<digest name="An mxj external to interact with Twitter."/>
+
+	<!-- REQUIRED: a short summary of the function -->	
+	<summary name="This object can connect to Twitter, perform Twitter searches, etc."/>
+
+	<!-- REQUIRED: a bit of license text -->
+	<license name="© University of Minnesota, 2009-2010: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna enim, ullamcorper et mattis eu, venenatis aliquam orci. Quisque nunc diam, dictum quis mattis vitae, faucibus eget felis. Morbi ornare dolor quis sem commodo vulputate. In ac ultrices diam."/>
+
+	<!-- OPTIONAL: object input/output  -->
+	<input name="Twitter messages and commands."/>
+	<output name="Messages, Tweets, etc."/> -->
+	
+	<!-- OPTIONAL: mop i.e. jitter matrix operator information -->
+	<!--<mop matrixinputcount="1" matrixoutputcount="0" />-->
+
+	<!-- OPTIONAL: a list of authors -->
+	<authorlist>
+		<author name="Christopher Baker" url="http://christopherbaker.net" email="info@christopherbaker.net" note="Programmer"/>
+	</authorlist>
+	
+	<!-- OPTIONAL: a list of libraries and or other important citations -->
+	<citationlist>
+		<citation name="twitter4j" url="http://twitter4j.com" note="A java library for the Twitter API."/>
+	</citationlist>
+		
+	<!-- OPTIONAL: a list of sponsors -->
+	<sponsorlist>
+		<sponsor name="Minnesota Futures Grant" url="http://minnesotafutures.org" note="Minnesota Futures is a grant that gives out lots and lots of money."/>
+		<sponsor name="Collaborative Art" url="http://cola.umn.edu" note="Cola is a wonderful drink and area of rearch."/>
+		<sponsor name="Department of Art" url="http://art.umn.edu" note="Unsure what to say about this."/>
+	</sponsorlist>
+	
+	<!-- OPTIONAL: a list of example patches in the max path -->
+	<examplelist>
+		<!-- <example name="maw.livedraw" note="Live drawing tool." /> -->
+		<!-- <example name="maw.stopmotion" note="Stop motion tool." /> -->
+	</examplelist>
+	
+	<!-- OPTIONAL: a list of related objects -->
+	<seealsolist>
+		<!-- <seealso name="maw.jit.adaptivethreshold" note="Adaptive Thresholding"/> -->
+		<!-- <seealso name="jit.op" note="Apply binary or unary operators"/> -->
+	</seealsolist>
+
+</object>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<!-- N.B. This xml schema is loosely based upon the *.maxref xml used in the Cycling 74 -->
+<!-- documentation. The *.maxref schema is used by objects such as [autohelp] but remains --> 
+<!-- undocumented.  When the [autohelp] api is released, mawLib will likely transition to -->
+<!-- this official api.  More info here: http://bit.ly/Sw17Z. -->
+<!-- 1 Sept, 2009: Christopher Baker <info@christopherbaker.net> -->
+
+<!-- REQUIRED: object root, object group, type:(external, mxj, js, abstraction), tags:(comma separated), library: website -->
+<object name="maw.animation.box2d" 
+		group="animation"
+		type="external" 
+		tags="physics,box2d,2d"
+		url="http://dev.minneapolisartonwheels.org/projects/show/maw-animation-box2d"> <!-- documentation page -->
+	
+	<!-- REQUIRED: a single line description -->	
+	<digest name="A wrapper for the outstanding box2d physics engine."/>
+
+	<!-- REQUIRED: a short summary of the function -->	
+	<summary name="This object is a wrapper for the box2d physics engine.  Box2d includes support for complex 2d collisions, and fast physics simulations."/>
+
+	<!-- REQUIRED: a bit of license text -->
+	<license name="© University of Minnesota, 2009-2010"/>
+
+	<!-- OPTIONAL: object input/output  
+	<input name="Single plane char matrix"/>
+	<output name="2-plane float matrix\nPlane 0: horizontal flow\nPlane 1: vertical flow"/> -->
+	
+	<!-- OPTIONAL: mop i.e. jitter matrix operator information -->
+	<!--<mop matrixinputcount="1" matrixoutputcount="0" />-->
+
+	<!-- OPTIONAL: a list of authors -->
+	<authorlist>
+		<author name="Christopher Baker" url="http://christopherbaker.net" email="info@christopherbaker.net" note="Box2d Max Wrapper"/>
+	</authorlist>
+	
+	<!-- OPTIONAL: a list of libraries and or other important citations -->
+	<citationlist>
+		<citation name="Box2d Physics Library" url="http://www.box2d.org/" note="A c++ 2D physics library."/>
+		<citation name="Max/MSP externals in C++" url="http://www.mat.ucsb.edu/~wakefield/maxcpp.htm" note="Graham Wakefield"/>
+	</citationlist>
+		
+	<!-- OPTIONAL: a list of sponsors -->
+	<sponsorlist>
+		<sponsor name="Minnesota Futures Grant" url="http://minnesotafutures.org" note="Minnesota Futures is a grant that gives out lots and lots of money."/>
+		<sponsor name="Collaborative Art" url="http://cola.umn.edu" note="Cola is a wonderful drink and area of rearch."/>
+		<sponsor name="Department of Art" url="http://art.umn.edu" note="Unsure what to say about this."/>
+	</sponsorlist>
+	
+	<!-- OPTIONAL: a list of example patches in the max path -->
+	<examplelist>
+		<example name="maw.animation.box2d.starter" note="A box2d starter example." />
+	</examplelist>
+	
+	<!-- OPTIONAL: a list of related objects -->
+	<seealsolist>
+		<seealso name="jit.gl.sketch" note="opengl drawing in Jitter."/>
+	</seealsolist>
+
+</object>
