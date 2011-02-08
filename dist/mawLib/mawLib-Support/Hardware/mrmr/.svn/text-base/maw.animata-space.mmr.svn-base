@@ -1,6 +1,0 @@
-pushbutton nil .2 9 8 2 2 1 1 rec 1
-togglebutton nil .2 9 8 4 2 1 1 loop 1
-accelerometer nil .2 9 8 6 1 4 3 accel 1
-slider nil .2 5 11 1 5 5 1 smooth 1
-slider nil .2 5 11 1 6 5 1 limit 1
-tactilezone nil .2 5 11 1 7 6 4 pos 3

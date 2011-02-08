@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<mawLib version="1.0" 
-		web="http://dev.minneapolisartonwheels.org/" 
-		checkforupdates="1" 
-		updateurl="http://dev.minneapolisartonwheels.org/mawLib/mawLib-release.xml"
-		>
-</mawLib>
