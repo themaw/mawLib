@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 40.0, 114.0, 1440.0, 778.0 ],
+		"rect" : [ 1.0, 44.0, 1440.0, 778.0 ],
 		"bgcolor" : [ 0.14902, 0.14902, 0.129412, 1.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 40.0, 114.0, 1440.0, 778.0 ],
+		"defrect" : [ 1.0, 44.0, 1440.0, 778.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -537,13 +537,13 @@
 ,
 					"patching_rect" : [ 580.0, 233.0, 32.5, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p"
@@ -1408,13 +1408,13 @@
 ,
 					"patching_rect" : [ 588.0, 158.0, 82.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p invert-rotate",
@@ -1912,13 +1912,13 @@
 ,
 									"patching_rect" : [ 201.0, 363.0, 59.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p get last"
@@ -2309,13 +2309,13 @@
 ,
 					"patching_rect" : [ 770.0, 231.0, 88.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p always record"
@@ -2876,13 +2876,13 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 20.0, 149.0, 72.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p instructions"
@@ -3802,13 +3802,13 @@
 ,
 									"patching_rect" : [ 187.0, 184.0, 47.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p open"
@@ -3979,13 +3979,13 @@
 ,
 									"patching_rect" : [ 328.0, 318.0, 32.5, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p"
@@ -6056,13 +6056,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1324.0, 27.0, 56.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p archival"
@@ -6248,13 +6248,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.001722,
 									"id" : "obj-97",
-									"linecount" : 8,
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.890747, 214.922424, 123.0, 97.0 ],
-									"text" : "0 0.169811 0.310593 1 -0.245283 -0.027069 2 0.396226 -0.41668 3 0. 0. 4 0. 0. 5 0. 0. 6 0. 0. 7 0. 0. 8 0. 0. 9 0. 0. 10 0. 0. 11 0. 0. 12 0. 0. 13 0. 0. 14 0. 0. 15 0. 0. 16 0. 0. 17 0. 0. 18 0. 0. 19 0. 0."
+									"patching_rect" : [ 165.890747, 214.922424, 126.0, 74.0 ],
+									"text" : "0 0. 0. 1 0. 0. 2 0. 0. 3 0. 0. 4 0. 0. 5 0. 0. 6 0. 0. 7 0. 0. 8 0. 0. 9 0. 0. 10 0. 0. 11 0. 0. 12 0. 0. 13 0. 0. 14 0. 0. 15 0. 0. 16 0. 0. 17 0. 0. 18 0. 0. 19 0. 0."
 								}
 
 							}
@@ -6362,13 +6362,13 @@
 ,
 					"patching_rect" : [ 1224.0, 252.0, 49.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p sinan"
@@ -7432,13 +7432,13 @@
 ,
 									"patching_rect" : [ 1268.0, 230.0, 59.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p unpack"
@@ -8241,13 +8241,13 @@
 ,
 									"patching_rect" : [ 1106.0, 294.0, 59.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p unpack"
@@ -9050,13 +9050,13 @@
 ,
 									"patching_rect" : [ 949.0, 341.0, 59.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p unpack"
@@ -9531,13 +9531,13 @@
 ,
 									"patching_rect" : [ 805.0, 398.0, 59.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p unpack"
@@ -9995,13 +9995,13 @@
 ,
 									"patching_rect" : [ 663.0, 398.0, 59.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p unpack"
@@ -10445,13 +10445,13 @@
 ,
 									"patching_rect" : [ 525.0, 398.0, 59.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p unpack"
@@ -11840,13 +11840,13 @@
 ,
 									"patching_rect" : [ 459.0, 401.0, 59.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p unpack"
@@ -12276,13 +12276,13 @@
 ,
 									"patching_rect" : [ 285.0, 401.0, 59.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p unpack"
@@ -12726,13 +12726,13 @@
 ,
 									"patching_rect" : [ 94.0, 401.0, 59.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p unpack"
@@ -13384,13 +13384,13 @@
 ,
 					"patching_rect" : [ 1987.0, 89.0, 72.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p touchOSC"
@@ -13455,13 +13455,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-4",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 233.0, 98.0, 409.0, 46.0 ],
-									"text" : "0 0.169811 0.310593 1 -0.245283 -0.027069 2 0.396226 -0.41668 3 0. 0. 4 0. 0. 5 0. 0. 6 0. 0. 7 0. 0. 8 0. 0. 9 0. 0. 10 0. 0. 11 0. 0. 12 0. 0. 13 0. 0. 14 0. 0. 15 0. 0. 16 0. 0. 17 0. 0. 18 0. 0. 19 0. 0."
+									"patching_rect" : [ 233.0, 98.0, 410.0, 32.0 ],
+									"text" : "0 0. 0. 1 0. 0. 2 0. 0. 3 0. 0. 4 0. 0. 5 0. 0. 6 0. 0. 7 0. 0. 8 0. 0. 9 0. 0. 10 0. 0. 11 0. 0. 12 0. 0. 13 0. 0. 14 0. 0. 15 0. 0. 16 0. 0. 17 0. 0. 18 0. 0. 19 0. 0."
 								}
 
 							}
@@ -13597,13 +13597,13 @@
 ,
 					"patching_rect" : [ 1177.0, 249.0, 37.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p set"
@@ -15203,13 +15203,13 @@
 ,
 													"patching_rect" : [ 854.0, 314.0, 59.5, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p map"
@@ -15970,13 +15970,13 @@
 ,
 													"patching_rect" : [ 653.0, 314.0, 59.5, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p map"
@@ -16737,13 +16737,13 @@
 ,
 													"patching_rect" : [ 452.0, 314.0, 59.5, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p map"
@@ -17504,13 +17504,13 @@
 ,
 													"patching_rect" : [ 251.0, 314.0, 59.5, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p map"
@@ -18271,13 +18271,13 @@
 ,
 													"patching_rect" : [ 50.0, 314.0, 59.5, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p map"
@@ -18602,13 +18602,13 @@
 ,
 									"patching_rect" : [ 390.0, 187.0, 81.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p scale many"
@@ -18874,13 +18874,13 @@
 ,
 									"patching_rect" : [ 291.5, 187.0, 87.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p one or many"
@@ -19041,13 +19041,13 @@
 ,
 					"patching_rect" : [ 1851.0, 89.0, 95.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p from-MAW.mr"
@@ -20278,13 +20278,13 @@
 ,
 					"patching_rect" : [ 1472.0, 111.0, 59.5, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p init"
@@ -20454,11 +20454,11 @@
 					"patching_rect" : [ 7.0, 767.0, 59.5, 20.0 ],
 					"restore" : 					{
 						"textedit" : [ 320, 240 ],
-						"xydisplay" : [ 0, -0.188679, -0.234862, 1, -0.245283, -0.027069, 2, 0.396226, -0.41668, 3, 0.0, 0.0, 4, 0.0, 0.0, 5, 0.0, 0.0, 6, 0.0, 0.0, 7, 0.0, 0.0, 8, 0.0, 0.0, 9, 0.0, 0.0, 10, 0.0, 0.0, 11, 0.0, 0.0, 12, 0.0, 0.0, 13, 0.0, 0.0, 14, 0.0, 0.0, 15, 0.0, 0.0, 16, 0.0, 0.0, 17, 0.0, 0.0, 18, 0.0, 0.0, 19, 0.0, 0.0 ]
+						"xydisplay" : [ 0, 0.0, 0.0, 1, 0.0, 0.0, 2, 0.0, 0.0, 3, 0.0, 0.0, 4, 0.0, 0.0, 5, 0.0, 0.0, 6, 0.0, 0.0, 7, 0.0, 0.0, 8, 0.0, 0.0, 9, 0.0, 0.0, 10, 0.0, 0.0, 11, 0.0, 0.0, 12, 0.0, 0.0, 13, 0.0, 0.0, 14, 0.0, 0.0, 15, 0.0, 0.0, 16, 0.0, 0.0, 17, 0.0, 0.0, 18, 0.0, 0.0, 19, 0.0, 0.0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u475013230"
+					"varname" : "u238013271"
 				}
 
 			}
@@ -20507,10 +20507,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1669.0, 757.5, 172.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"storage_rect" : [ 25, 69, 897, 817 ],
+						"paraminitmode" : 0,
 						"parameter_enable" : 0,
-						"client_rect" : [ 533, 258, 1215, 970 ],
-						"paraminitmode" : 0
+						"storage_rect" : [ 25, 69, 897, 817 ],
+						"client_rect" : [ 533, 258, 1215, 970 ]
 					}
 ,
 					"text" : "pattrstorage maw.livedraw01 @greedy 1",
@@ -20922,13 +20922,13 @@
 ,
 					"patching_rect" : [ 1207.0, 775.0, 58.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p movielist"
@@ -20982,16 +20982,16 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 741.0, 69.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"midisupport" : 1,
-						"usesearchpath" : 0,
-						"statusvisible" : 1,
 						"audiosupport" : 1,
-						"cantclosetoplevelpatchers" : 1,
-						"noloadbangdefeating" : 0,
+						"midisupport" : 1,
 						"preffilename" : "Max 5 Preferences",
+						"usesearchpath" : 0,
+						"searchformissingfiles" : 1,
+						"statusvisible" : 1,
+						"cantclosetoplevelpatchers" : 1,
 						"overdrive" : 0,
 						"allwindowsactive" : 1,
-						"searchformissingfiles" : 1,
+						"noloadbangdefeating" : 0,
 						"extensions" : 0
 					}
 ,
@@ -21493,13 +21493,13 @@
 ,
 					"patching_rect" : [ 1135.0, 737.0, 67.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p movielist"
@@ -21888,13 +21888,13 @@
 ,
 					"patching_rect" : [ 211.0, 233.0, 32.5, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p"
@@ -21947,7 +21947,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u761013362"
+					"varname" : "u988013403"
 				}
 
 			}
@@ -22333,13 +22333,13 @@
 ,
 					"patching_rect" : [ 90.0, 155.0, 32.5, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p"
@@ -23426,13 +23426,13 @@
 ,
 																	"patching_rect" : [ 50.0, 100.0, 104.0, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p list change float"
@@ -23585,13 +23585,13 @@
 ,
 													"patching_rect" : [ 587.0, 288.0, 19.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p"
@@ -23901,13 +23901,13 @@
 ,
 																	"patching_rect" : [ 646.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -24189,13 +24189,13 @@
 ,
 																	"patching_rect" : [ 606.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -24477,13 +24477,13 @@
 ,
 																	"patching_rect" : [ 566.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -24765,13 +24765,13 @@
 ,
 																	"patching_rect" : [ 526.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -25053,13 +25053,13 @@
 ,
 																	"patching_rect" : [ 486.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -25341,13 +25341,13 @@
 ,
 																	"patching_rect" : [ 443.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -25629,13 +25629,13 @@
 ,
 																	"patching_rect" : [ 403.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -25917,13 +25917,13 @@
 ,
 																	"patching_rect" : [ 363.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -26205,13 +26205,13 @@
 ,
 																	"patching_rect" : [ 323.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -26493,13 +26493,13 @@
 ,
 																	"patching_rect" : [ 283.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -26977,13 +26977,13 @@
 ,
 																	"patching_rect" : [ 240.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -27265,13 +27265,13 @@
 ,
 																	"patching_rect" : [ 200.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -27553,13 +27553,13 @@
 ,
 																	"patching_rect" : [ 160.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -27841,13 +27841,13 @@
 ,
 																	"patching_rect" : [ 120.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -28129,13 +28129,13 @@
 ,
 																	"patching_rect" : [ 80.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -28783,13 +28783,13 @@
 ,
 													"patching_rect" : [ 458.0, 288.0, 32.5, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p"
@@ -29490,13 +29490,13 @@
 ,
 													"patching_rect" : [ 1178.0, 251.0, 78.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change"
@@ -30197,13 +30197,13 @@
 ,
 													"patching_rect" : [ 874.0, 287.0, 104.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change float"
@@ -31491,13 +31491,13 @@
 ,
 													"patching_rect" : [ 214.0, 251.0, 78.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change"
@@ -32738,13 +32738,13 @@
 ,
 													"patching_rect" : [ 58.0, 251.0, 78.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change"
@@ -33580,13 +33580,13 @@
 ,
 													"patching_rect" : [ 726.0, 287.0, 104.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change float"
@@ -33928,13 +33928,13 @@
 ,
 									"patching_rect" : [ 972.0, 313.0, 53.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p map it"
@@ -34884,13 +34884,13 @@
 ,
 																	"patching_rect" : [ 50.0, 100.0, 104.0, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p list change float"
@@ -35043,13 +35043,13 @@
 ,
 													"patching_rect" : [ 587.0, 288.0, 19.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p"
@@ -35359,13 +35359,13 @@
 ,
 																	"patching_rect" : [ 646.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -35647,13 +35647,13 @@
 ,
 																	"patching_rect" : [ 606.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -35935,13 +35935,13 @@
 ,
 																	"patching_rect" : [ 566.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -36223,13 +36223,13 @@
 ,
 																	"patching_rect" : [ 526.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -36511,13 +36511,13 @@
 ,
 																	"patching_rect" : [ 486.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -36799,13 +36799,13 @@
 ,
 																	"patching_rect" : [ 443.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -37087,13 +37087,13 @@
 ,
 																	"patching_rect" : [ 403.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -37375,13 +37375,13 @@
 ,
 																	"patching_rect" : [ 363.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -37663,13 +37663,13 @@
 ,
 																	"patching_rect" : [ 323.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -37951,13 +37951,13 @@
 ,
 																	"patching_rect" : [ 283.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -38435,13 +38435,13 @@
 ,
 																	"patching_rect" : [ 240.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -38723,13 +38723,13 @@
 ,
 																	"patching_rect" : [ 200.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -39011,13 +39011,13 @@
 ,
 																	"patching_rect" : [ 160.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -39299,13 +39299,13 @@
 ,
 																	"patching_rect" : [ 120.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -39587,13 +39587,13 @@
 ,
 																	"patching_rect" : [ 80.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -40241,13 +40241,13 @@
 ,
 													"patching_rect" : [ 458.0, 288.0, 32.5, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p"
@@ -40948,13 +40948,13 @@
 ,
 													"patching_rect" : [ 1178.0, 251.0, 78.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change"
@@ -41655,13 +41655,13 @@
 ,
 													"patching_rect" : [ 874.0, 287.0, 104.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change float"
@@ -42949,13 +42949,13 @@
 ,
 													"patching_rect" : [ 214.0, 251.0, 78.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change"
@@ -44196,13 +44196,13 @@
 ,
 													"patching_rect" : [ 58.0, 251.0, 78.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change"
@@ -45038,13 +45038,13 @@
 ,
 													"patching_rect" : [ 726.0, 287.0, 104.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change float"
@@ -45386,13 +45386,13 @@
 ,
 									"patching_rect" : [ 841.0, 311.0, 53.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p map it"
@@ -46349,13 +46349,13 @@
 ,
 																	"patching_rect" : [ 50.0, 100.0, 104.0, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p list change float"
@@ -46508,13 +46508,13 @@
 ,
 													"patching_rect" : [ 611.0, 263.0, 19.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p"
@@ -46824,13 +46824,13 @@
 ,
 																	"patching_rect" : [ 646.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -47112,13 +47112,13 @@
 ,
 																	"patching_rect" : [ 606.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -47400,13 +47400,13 @@
 ,
 																	"patching_rect" : [ 566.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -47688,13 +47688,13 @@
 ,
 																	"patching_rect" : [ 526.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -47976,13 +47976,13 @@
 ,
 																	"patching_rect" : [ 486.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -48264,13 +48264,13 @@
 ,
 																	"patching_rect" : [ 443.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -48552,13 +48552,13 @@
 ,
 																	"patching_rect" : [ 403.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -48840,13 +48840,13 @@
 ,
 																	"patching_rect" : [ 363.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -49128,13 +49128,13 @@
 ,
 																	"patching_rect" : [ 323.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -49416,13 +49416,13 @@
 ,
 																	"patching_rect" : [ 283.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -49900,13 +49900,13 @@
 ,
 																	"patching_rect" : [ 240.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -50188,13 +50188,13 @@
 ,
 																	"patching_rect" : [ 200.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -50476,13 +50476,13 @@
 ,
 																	"patching_rect" : [ 160.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -50764,13 +50764,13 @@
 ,
 																	"patching_rect" : [ 120.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -51052,13 +51052,13 @@
 ,
 																	"patching_rect" : [ 80.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -51706,13 +51706,13 @@
 ,
 													"patching_rect" : [ 482.0, 263.0, 32.5, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p"
@@ -52413,13 +52413,13 @@
 ,
 													"patching_rect" : [ 238.0, 132.0, 78.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change"
@@ -53120,13 +53120,13 @@
 ,
 													"patching_rect" : [ 82.0, 132.0, 78.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change"
@@ -53309,13 +53309,13 @@
 ,
 									"patching_rect" : [ 576.0, 317.0, 73.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p camera"
@@ -54221,13 +54221,13 @@
 ,
 																	"patching_rect" : [ 50.0, 100.0, 104.0, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p list change float"
@@ -54380,13 +54380,13 @@
 ,
 													"patching_rect" : [ 722.0, 101.0, 44.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p map"
@@ -54696,13 +54696,13 @@
 ,
 																	"patching_rect" : [ 646.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -54984,13 +54984,13 @@
 ,
 																	"patching_rect" : [ 606.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -55272,13 +55272,13 @@
 ,
 																	"patching_rect" : [ 566.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -55560,13 +55560,13 @@
 ,
 																	"patching_rect" : [ 526.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -55848,13 +55848,13 @@
 ,
 																	"patching_rect" : [ 486.0, 209.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -56136,13 +56136,13 @@
 ,
 																	"patching_rect" : [ 443.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -56424,13 +56424,13 @@
 ,
 																	"patching_rect" : [ 403.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -56712,13 +56712,13 @@
 ,
 																	"patching_rect" : [ 363.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -57000,13 +57000,13 @@
 ,
 																	"patching_rect" : [ 323.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -57288,13 +57288,13 @@
 ,
 																	"patching_rect" : [ 283.0, 207.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -57772,13 +57772,13 @@
 ,
 																	"patching_rect" : [ 240.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -58060,13 +58060,13 @@
 ,
 																	"patching_rect" : [ 200.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -58348,13 +58348,13 @@
 ,
 																	"patching_rect" : [ 160.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -58636,13 +58636,13 @@
 ,
 																	"patching_rect" : [ 120.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -58924,13 +58924,13 @@
 ,
 																	"patching_rect" : [ 80.0, 205.0, 32.5, 20.0 ],
 																	"saved_object_attributes" : 																	{
-																		"fontname" : "Arial",
-																		"default_fontname" : "Arial",
-																		"globalpatchername" : "",
 																		"default_fontsize" : 12.0,
 																		"fontface" : 0,
 																		"fontsize" : 12.0,
-																		"default_fontface" : 0
+																		"default_fontface" : 0,
+																		"globalpatchername" : "",
+																		"default_fontname" : "Arial",
+																		"fontname" : "Arial"
 																	}
 ,
 																	"text" : "p"
@@ -59578,13 +59578,13 @@
 ,
 													"patching_rect" : [ 404.0, 101.0, 44.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p map"
@@ -60285,13 +60285,13 @@
 ,
 													"patching_rect" : [ 223.0, 117.0, 78.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change"
@@ -60992,13 +60992,13 @@
 ,
 													"patching_rect" : [ 67.0, 117.0, 78.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontname" : "Arial",
-														"default_fontname" : "Arial",
-														"globalpatchername" : "",
 														"default_fontsize" : 12.0,
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"globalpatchername" : "",
+														"default_fontname" : "Arial",
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p list change"
@@ -61181,13 +61181,13 @@
 ,
 									"patching_rect" : [ 278.0, 315.0, 73.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p loops"
@@ -61564,13 +61564,13 @@
 ,
 					"patching_rect" : [ 1736.0, 99.0, 48.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p lemur"
@@ -62383,13 +62383,13 @@
 ,
 					"patching_rect" : [ 219.0, 158.0, 82.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p invert-rotate",
@@ -62954,13 +62954,13 @@
 ,
 									"patching_rect" : [ 201.0, 363.0, 59.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p get last"
@@ -63351,13 +63351,13 @@
 ,
 					"patching_rect" : [ 401.0, 231.0, 88.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p always record"
@@ -63667,7 +63667,7 @@
 					"patching_rect" : [ 1184.0, 103.0, 198.0, 135.0 ],
 					"pointcolor" : [ 1.0, 0.682353, 0.682353, 1.0 ],
 					"pointdiameter" : 8.0,
-					"points" : [ 0.0, 0.0, 19, 0.0, 0.0, 18, 0.0, 0.0, 17, 0.0, 0.0, 16, 0.0, 0.0, 15, 0.0, 0.0, 14, 0.0, 0.0, 13, 0.0, 0.0, 12, 0.0, 0.0, 11, 0.0, 0.0, 10, 0.0, 0.0, 9, 0.0, 0.0, 8, 0.0, 0.0, 7, 0.0, 0.0, 6, 0.0, 0.0, 5, 0.0, 0.0, 4, 0.0, 0.0, 3, 0.396226, -0.41668, 2, -0.245283, -0.027069, 1, -0.188679, -0.234862, 0 ],
+					"points" : [ 0.0, 0.0, 19, 0.0, 0.0, 18, 0.0, 0.0, 17, 0.0, 0.0, 16, 0.0, 0.0, 15, 0.0, 0.0, 14, 0.0, 0.0, 13, 0.0, 0.0, 12, 0.0, 0.0, 11, 0.0, 0.0, 10, 0.0, 0.0, 9, 0.0, 0.0, 8, 0.0, 0.0, 7, 0.0, 0.0, 6, 0.0, 0.0, 5, 0.0, 0.0, 4, 0.0, 0.0, 3, 0.0, 0.0, 2, 0.0, 0.0, 1, 0.0, 0.0, 0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 513.700012, 208.0, 137.0 ],
 					"textcolor" : [  ],
@@ -63921,20 +63921,6 @@
 					"patching_rect" : [ 1703.0, 22.0, 596.0, 137.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 776.700012, 209.0, 97.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"bgcolor" : [ 0.470588, 0.54902, 0.239216, 1.0 ],
-					"id" : "obj-220",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 570.0, -6.0, 360.0, 288.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 570.0, -6.0, 211.0, 130.513489 ]
 				}
 
 			}
@@ -65003,646 +64989,646 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-148::obj-111" : [ "trans-mode", "trans-mode", 0 ],
-			"obj-150::obj-161" : [ "rotateZ[3]", "rotateZ", 0 ],
-			"obj-151::obj-116" : [ "smooth[6]", "smooth", 0 ],
-			"obj-154::obj-177" : [ "live-in[6]", "mode", 0 ],
-			"obj-156::obj-165" : [ "rotateX[9]", "rotateX", 0 ],
-			"obj-103::obj-91::obj-10" : [ "playFrame[8]", "playFrame", 0 ],
-			"obj-100::obj-162" : [ "rotateY[12]", "rotateY", 0 ],
-			"obj-36::obj-111" : [ "trans-mode[18]", "trans-mode", 0 ],
-			"obj-27::obj-116" : [ "smooth[36]", "smooth", 0 ],
-			"obj-150::obj-91::obj-8" : [ "live.button[5]", "live.button", 0 ],
-			"obj-154::obj-4" : [ "invert[6]", "invert", 0 ],
-			"obj-103::obj-161" : [ "rotateZ[10]", "rotateZ", 0 ],
-			"obj-100::obj-91::obj-53" : [ "delayFrame[11]", "delayFrame", 0 ],
-			"obj-56::obj-91::obj-8" : [ "live.button[39]", "live.button", 0 ],
-			"obj-36::obj-7" : [ "rate[18]", "rate", 0 ],
-			"obj-154::obj-167" : [ "record-codec[6]", "record-codec", 0 ],
-			"obj-103::obj-66" : [ "live.numbox[30]", "live.numbox", 0 ],
-			"obj-100::obj-142" : [ "mode[12]", "mode", 0 ],
-			"obj-56::obj-34" : [ "scale[13]", "scale", 0 ],
-			"obj-36::obj-165" : [ "rotateX[18]", "rotateX", 0 ],
-			"obj-27::obj-66" : [ "live.numbox[17]", "live.numbox", 0 ],
-			"obj-149::obj-35" : [ "volume[1]", "volume", 0 ],
-			"obj-153::obj-66" : [ "live.numbox[22]", "live.numbox", 0 ],
-			"obj-154::obj-173" : [ "live.text[6]", "live.text", 0 ],
-			"obj-155::obj-91::obj-53" : [ "delayFrame[7]", "delayFrame", 0 ],
-			"obj-155::obj-91::obj-9" : [ "recordFrame[7]", "recordFrame", 0 ],
-			"obj-156::obj-46" : [ "gain[8]", "gain", 0 ],
-			"obj-103::obj-165" : [ "rotateX[10]", "rotateX", 0 ],
-			"obj-100::obj-111" : [ "trans-mode[12]", "trans-mode", 0 ],
-			"obj-14::obj-91::obj-33" : [ "live.button[37]", "live.button", 0 ],
-			"obj-56::obj-142" : [ "mode[14]", "mode", 0 ],
-			"obj-38::obj-34" : [ "scale[15]", "scale", 0 ],
-			"obj-148::obj-91::obj-8" : [ "live.button[85]", "live.button", 0 ],
-			"obj-149::obj-161" : [ "rotateZ[2]", "rotateZ", 0 ],
-			"obj-152::obj-8" : [ "live.text[45]", "live.text[1]", 0 ],
-			"obj-153::obj-161" : [ "rotateZ[6]", "rotateZ", 0 ],
-			"obj-154::obj-142" : [ "mode[6]", "mode", 0 ],
-			"obj-155::obj-165" : [ "rotateX[8]", "rotateX", 0 ],
-			"obj-156::obj-91::obj-53" : [ "delayFrame[8]", "delayFrame", 0 ],
-			"obj-103::obj-173" : [ "live.text[10]", "live.text", 0 ],
-			"obj-100::obj-66" : [ "live.numbox[19]", "live.numbox", 0 ],
-			"obj-14::obj-57" : [ "loop-mode[13]", "loop-mode", 0 ],
-			"obj-56::obj-91::obj-9" : [ "recordFrame[13]", "recordFrame", 0 ],
-			"obj-44::obj-4" : [ "invert[15]", "invert", 0 ],
-			"obj-38::obj-173" : [ "live.text[16]", "live.text", 0 ],
-			"obj-148::obj-91::obj-33" : [ "live.button[87]", "live.button", 0 ],
-			"obj-148::obj-173" : [ "live.text", "live.text", 0 ],
-			"obj-149::obj-57" : [ "loop-mode[1]", "loop-mode", 0 ],
-			"obj-152::obj-66" : [ "live.numbox[20]", "live.numbox", 0 ],
-			"obj-153::obj-111" : [ "trans-mode[5]", "trans-mode", 0 ],
-			"obj-154::obj-161" : [ "rotateZ[7]", "rotateZ", 0 ],
-			"obj-155::obj-123" : [ "thresh[7]", "thresh", 0 ],
-			"obj-102::obj-46" : [ "gain[11]", "gain", 0 ],
-			"obj-14::obj-179" : [ "live.button[36]", "live.button", 0 ],
-			"obj-56::obj-8" : [ "live.text[54]", "live.text[1]", 0 ],
-			"obj-44::obj-165" : [ "rotateX[15]", "rotateX", 0 ],
-			"obj-38::obj-162" : [ "rotateY[16]", "rotateY", 0 ],
-			"obj-148::obj-147" : [ "smooth", "smooth", 0 ],
-			"obj-149::obj-159" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-152::obj-91::obj-10" : [ "playFrame[4]", "playFrame", 0 ],
-			"obj-153::obj-179" : [ "live.button[18]", "live.button", 0 ],
-			"obj-155::obj-177" : [ "live-in[7]", "mode", 0 ],
-			"obj-102::obj-147" : [ "smooth[21]", "smooth", 0 ],
-			"obj-14::obj-176" : [ "live.text[33]", "live.text[1]", 0 ],
-			"obj-56::obj-7" : [ "rate[14]", "rate", 0 ],
-			"obj-44::obj-161" : [ "rotateZ[15]", "rotateZ", 0 ],
-			"obj-38::obj-116" : [ "smooth[30]", "smooth", 0 ],
-			"obj-37::obj-173" : [ "live.text[17]", "live.text", 0 ],
-			"obj-104::obj-179" : [ "live.button[66]", "live.button", 0 ],
-			"obj-149::obj-165" : [ "rotateX[2]", "rotateX", 0 ],
-			"obj-151::obj-91::obj-9" : [ "recordFrame[3]", "recordFrame", 0 ],
-			"obj-152::obj-7" : [ "rate[4]", "rate", 0 ],
-			"obj-153::obj-91::obj-10" : [ "playFrame[25]", "playFrame", 0 ],
-			"obj-155::obj-167" : [ "record-codec[7]", "record-codec", 0 ],
-			"obj-102::obj-4" : [ "invert[11]", "invert", 0 ],
-			"obj-14::obj-91::obj-5" : [ "voices[12]", "voices", 0 ],
-			"obj-56::obj-147" : [ "smooth[26]", "smooth", 0 ],
-			"obj-44::obj-111" : [ "trans-mode[15]", "trans-mode", 0 ],
-			"obj-38::obj-91::obj-33" : [ "live.button[47]", "live.button", 0 ],
-			"obj-37::obj-91::obj-10" : [ "playFrame[15]", "playFrame", 0 ],
-			"obj-27::obj-159" : [ "live.toggle[19]", "live.toggle", 0 ],
-			"obj-104::obj-147" : [ "smooth[38]", "smooth", 0 ],
-			"obj-150::obj-91::obj-33" : [ "live.button[6]", "live.button", 0 ],
-			"obj-151::obj-165" : [ "rotateX[4]", "rotateX", 0 ],
-			"obj-152::obj-91::obj-9" : [ "recordFrame[4]", "recordFrame", 0 ],
-			"obj-153::obj-176" : [ "live.text[26]", "live.text[1]", 0 ],
-			"obj-102::obj-34" : [ "scale[10]", "scale", 0 ],
-			"obj-14::obj-35" : [ "volume[13]", "volume", 0 ],
-			"obj-44::obj-159" : [ "live.toggle[15]", "live.toggle", 0 ],
-			"obj-38::obj-91::obj-53" : [ "delayFrame[15]", "delayFrame", 0 ],
-			"obj-37::obj-111" : [ "trans-mode[17]", "trans-mode", 0 ],
-			"obj-36::obj-91::obj-8" : [ "live.button[55]", "live.button", 0 ],
-			"obj-104::obj-116" : [ "smooth[39]", "smooth", 0 ],
-			"obj-150::obj-8" : [ "live.text[43]", "live.text[1]", 0 ],
-			"obj-151::obj-91::obj-8" : [ "live.button[9]", "live.button", 0 ],
-			"obj-152::obj-162" : [ "rotateY[5]", "rotateY", 0 ],
-			"obj-153::obj-7" : [ "rate[5]", "rate", 0 ],
-			"obj-156::obj-4" : [ "invert[8]", "invert", 0 ],
-			"obj-102::obj-177" : [ "live-in[10]", "mode", 0 ],
-			"obj-44::obj-35" : [ "volume[15]", "volume", 0 ],
-			"obj-37::obj-177" : [ "live-in[16]", "mode", 0 ],
-			"obj-36::obj-66" : [ "live.numbox[15]", "live.numbox", 0 ],
-			"obj-27::obj-91::obj-9" : [ "recordFrame[18]", "recordFrame", 0 ],
-			"obj-104::obj-177" : [ "live-in[19]", "mode", 0 ],
-			"obj-150::obj-56" : [ "rate-loop[2]", "rate-loop", 0 ],
-			"obj-151::obj-167" : [ "record-codec[3]", "record-codec", 0 ],
-			"obj-156::obj-177" : [ "live-in[8]", "mode", 0 ],
-			"obj-103::obj-177" : [ "live-in[9]", "mode", 0 ],
-			"obj-102::obj-142" : [ "mode[11]", "mode", 0 ],
-			"obj-37::obj-91::obj-23" : [ "live.button[51]", "live.button", 0 ],
-			"obj-36::obj-22" : [ "frames-available[18]", "frames-available", 0 ],
-			"obj-104::obj-56" : [ "rate-loop[9]", "rate-loop", 0 ],
-			"obj-150::obj-4" : [ "invert[2]", "invert", 0 ],
-			"obj-151::obj-35" : [ "volume[3]", "volume", 0 ],
-			"obj-154::obj-91::obj-5" : [ "voices[6]", "voices", 0 ],
-			"obj-156::obj-123" : [ "thresh[8]", "thresh", 0 ],
-			"obj-103::obj-7" : [ "rate[10]", "rate", 0 ],
-			"obj-100::obj-46" : [ "gain[12]", "gain", 0 ],
-			"obj-37::obj-56" : [ "rate-loop[17]", "rate-loop", 0 ],
-			"obj-36::obj-91::obj-9" : [ "recordFrame[17]", "recordFrame", 0 ],
-			"obj-27::obj-165" : [ "rotateX", "rotateX", 0 ],
-			"obj-27::obj-123" : [ "thresh[19]", "thresh", 0 ],
-			"obj-104::obj-159" : [ "live.toggle[9]", "live.toggle", 0 ],
-			"obj-150::obj-111" : [ "trans-mode[2]", "trans-mode", 0 ],
-			"obj-151::obj-161" : [ "rotateZ[4]", "rotateZ", 0 ],
-			"obj-154::obj-46" : [ "gain[6]", "gain", 0 ],
-			"obj-103::obj-34" : [ "scale[9]", "scale", 0 ],
-			"obj-100::obj-56" : [ "rate-loop[12]", "rate-loop", 0 ],
-			"obj-36::obj-173" : [ "live.text[18]", "live.text", 0 ],
-			"obj-27::obj-35" : [ "volume[19]", "volume", 0 ],
-			"obj-27::obj-142" : [ "mode[19]", "mode", 0 ],
-			"obj-150::obj-147" : [ "smooth[5]", "smooth", 0 ],
-			"obj-154::obj-34" : [ "scale[6]", "scale", 0 ],
-			"obj-103::obj-8" : [ "live.text[50]", "live.text[1]", 0 ],
-			"obj-100::obj-161" : [ "rotateZ[12]", "rotateZ", 0 ],
-			"obj-56::obj-167" : [ "record-codec[13]", "record-codec", 0 ],
-			"obj-36::obj-177" : [ "live-in[17]", "mode", 0 ],
-			"obj-148::obj-4" : [ "invert", "invert", 0 ],
-			"obj-149::obj-162" : [ "rotateY[2]", "rotateY", 0 ],
-			"obj-154::obj-159" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-156::obj-173" : [ "live.text[8]", "live.text", 0 ],
-			"obj-103::obj-91::obj-9" : [ "recordFrame[9]", "recordFrame", 0 ],
-			"obj-100::obj-8" : [ "live.text[52]", "live.text[1]", 0 ],
-			"obj-14::obj-34" : [ "scale[12]", "scale", 0 ],
-			"obj-56::obj-21" : [ "frames-recorded[14]", "volume", 0 ],
-			"obj-38::obj-91::obj-5" : [ "voices[15]", "voices", 0 ],
-			"obj-148::obj-162" : [ "rotateY[1]", "rotateY", 0 ],
-			"obj-149::obj-147" : [ "smooth[3]", "smooth", 0 ],
-			"obj-153::obj-56" : [ "rate-loop[5]", "rate-loop", 0 ],
-			"obj-154::obj-66" : [ "live.numbox[4]", "live.numbox", 0 ],
-			"obj-155::obj-8" : [ "live.text[48]", "live.text[1]", 0 ],
-			"obj-156::obj-161" : [ "rotateZ[9]", "rotateZ", 0 ],
-			"obj-103::obj-162" : [ "rotateY[10]", "rotateY", 0 ],
-			"obj-100::obj-91::obj-9" : [ "recordFrame[11]", "recordFrame", 0 ],
-			"obj-14::obj-177" : [ "live-in[12]", "mode", 0 ],
-			"obj-56::obj-173" : [ "live.text[14]", "live.text", 0 ],
-			"obj-38::obj-159" : [ "live.toggle[16]", "live.toggle", 0 ],
-			"obj-148::obj-91::obj-5" : [ "voices[20]", "voices", 0 ],
-			"obj-149::obj-176" : [ "live.text[22]", "live.text[1]", 0 ],
-			"obj-152::obj-111" : [ "trans-mode[4]", "trans-mode", 0 ],
-			"obj-153::obj-22" : [ "frames-available[5]", "frames-available", 0 ],
-			"obj-154::obj-176" : [ "live.text[27]", "live.text[1]", 0 ],
-			"obj-155::obj-56" : [ "rate-loop[7]", "rate-loop", 0 ],
-			"obj-156::obj-147" : [ "smooth[16]", "smooth", 0 ],
-			"obj-103::obj-46" : [ "gain[10]", "gain", 0 ],
-			"obj-100::obj-7" : [ "rate[12]", "rate", 0 ],
-			"obj-14::obj-111" : [ "trans-mode[13]", "trans-mode", 0 ],
-			"obj-56::obj-179" : [ "live.button[40]", "live.button", 0 ],
-			"obj-44::obj-91::obj-9" : [ "recordFrame[14]", "recordFrame", 0 ],
-			"obj-38::obj-22" : [ "frames-available[16]", "frames-available", 0 ],
-			"obj-148::obj-165" : [ "rotateX[1]", "rotateX", 0 ],
-			"obj-149::obj-56" : [ "rate-loop[1]", "rate-loop", 0 ],
-			"obj-152::obj-91::obj-23" : [ "live.button[89]", "live.button", 0 ],
-			"obj-153::obj-123" : [ "thresh[5]", "thresh", 0 ],
-			"obj-155::obj-66" : [ "live.numbox[12]", "live.numbox", 0 ],
-			"obj-102::obj-91::obj-10" : [ "playFrame[9]", "playFrame", 0 ],
-			"obj-14::obj-167" : [ "record-codec[12]", "record-codec", 0 ],
-			"obj-56::obj-162" : [ "rotateY[14]", "rotateY", 0 ],
-			"obj-44::obj-56" : [ "rate-loop[15]", "rate-loop", 0 ],
-			"obj-38::obj-35" : [ "volume[16]", "volume", 0 ],
-			"obj-37::obj-91::obj-8" : [ "live.button[53]", "live.button", 0 ],
-			"obj-148::obj-179" : [ "live.button", "live.button", 0 ],
-			"obj-149::obj-46" : [ "gain[1]", "gain", 0 ],
-			"obj-152::obj-167" : [ "record-codec[4]", "record-codec", 0 ],
-			"obj-153::obj-4" : [ "invert[5]", "invert", 0 ],
-			"obj-155::obj-147" : [ "smooth[14]", "smooth", 0 ],
-			"obj-102::obj-173" : [ "live.text[11]", "live.text", 0 ],
-			"obj-14::obj-91::obj-9" : [ "recordFrame[12]", "recordFrame", 0 ],
-			"obj-56::obj-4" : [ "invert[14]", "invert", 0 ],
-			"obj-44::obj-91::obj-23" : [ "live.button[46]", "live.button", 0 ],
-			"obj-38::obj-177" : [ "live-in[15]", "mode", 0 ],
-			"obj-37::obj-35" : [ "volume[17]", "volume", 0 ],
-			"obj-27::obj-46" : [ "gain[19]", "gain", 0 ],
-			"obj-27::obj-91::obj-23" : [ "live.button[61]", "live.button", 0 ],
-			"obj-104::obj-21" : [ "frames-recorded[9]", "volume", 0 ],
-			"obj-149::obj-8" : [ "live.text[42]", "live.text[1]", 0 ],
-			"obj-151::obj-91::obj-5" : [ "voices[3]", "voices", 0 ],
-			"obj-152::obj-91::obj-5" : [ "voices[4]", "voices", 0 ],
-			"obj-153::obj-165" : [ "rotateX[6]", "rotateX", 0 ],
-			"obj-155::obj-7" : [ "rate[7]", "rate", 0 ],
-			"obj-102::obj-123" : [ "thresh[11]", "thresh", 0 ],
-			"obj-14::obj-46" : [ "gain[13]", "gain", 0 ],
-			"obj-44::obj-21" : [ "frames-recorded[15]", "volume", 0 ],
-			"obj-38::obj-7" : [ "rate[16]", "rate", 0 ],
-			"obj-37::obj-165" : [ "rotateX[17]", "rotateX", 0 ],
-			"obj-27::obj-56" : [ "rate-loop[19]", "rate-loop", 0 ],
-			"obj-104::obj-4" : [ "invert[9]", "invert", 0 ],
-			"obj-150::obj-167" : [ "record-codec[2]", "record-codec", 0 ],
-			"obj-151::obj-56" : [ "rate-loop[3]", "rate-loop", 0 ],
-			"obj-152::obj-4" : [ "invert[4]", "invert", 0 ],
-			"obj-153::obj-46" : [ "gain[5]", "gain", 0 ],
-			"obj-156::obj-91::obj-10" : [ "playFrame[7]", "playFrame", 0 ],
-			"obj-102::obj-179" : [ "live.button[94]", "live.button", 0 ],
-			"obj-14::obj-91::obj-23" : [ "live.button[38]", "live.button", 0 ],
-			"obj-44::obj-123" : [ "thresh[15]", "thresh", 0 ],
-			"obj-38::obj-167" : [ "record-codec[15]", "record-codec", 0 ],
-			"obj-37::obj-161" : [ "rotateZ[17]", "rotateZ", 0 ],
-			"obj-36::obj-91::obj-5" : [ "voices[17]", "voices", 0 ],
-			"obj-27::obj-147" : [ "smooth[37]", "smooth", 0 ],
-			"obj-104::obj-173" : [ "live.text[9]", "live.text", 0 ],
-			"obj-150::obj-7" : [ "rate[2]", "rate", 0 ],
-			"obj-151::obj-162" : [ "rotateY[4]", "rotateY", 0 ],
-			"obj-152::obj-161" : [ "rotateZ[5]", "rotateZ", 0 ],
-			"obj-153::obj-34" : [ "scale[5]", "scale", 0 ],
-			"obj-156::obj-111" : [ "trans-mode[8]", "trans-mode", 0 ],
-			"obj-102::obj-56" : [ "rate-loop[11]", "rate-loop", 0 ],
-			"obj-44::obj-34" : [ "scale[14]", "scale", 0 ],
-			"obj-37::obj-147" : [ "smooth[32]", "smooth", 0 ],
-			"obj-36::obj-56" : [ "rate-loop[18]", "rate-loop", 0 ],
-			"obj-27::obj-173" : [ "live.text[20]", "live.text", 0 ],
-			"obj-27::obj-34" : [ "scale[18]", "scale", 0 ],
-			"obj-104::obj-57" : [ "loop-mode[9]", "loop-mode", 0 ],
-			"obj-150::obj-91::obj-5" : [ "voices[2]", "voices", 0 ],
-			"obj-151::obj-177" : [ "live-in[3]", "mode", 0 ],
-			"obj-156::obj-91::obj-33" : [ "live.button[28]", "live.button", 0 ],
-			"obj-103::obj-159" : [ "live.toggle[10]", "live.toggle", 0 ],
-			"obj-102::obj-165" : [ "rotateX[11]", "rotateX", 0 ],
-			"obj-100::obj-91::obj-23" : [ "live.button[96]", "live.button", 0 ],
-			"obj-37::obj-91::obj-5" : [ "voices[16]", "voices", 0 ],
-			"obj-36::obj-123" : [ "thresh[18]", "thresh", 0 ],
-			"obj-104::obj-162" : [ "rotateY[19]", "rotateY", 0 ],
-			"obj-148::obj-34" : [ "scale", "scale", 0 ],
-			"obj-150::obj-176" : [ "live.text[23]", "live.text[1]", 0 ],
-			"obj-151::obj-46" : [ "gain[3]", "gain", 0 ],
-			"obj-154::obj-147" : [ "smooth[12]", "smooth", 0 ],
-			"obj-156::obj-176" : [ "live.text[49]", "live.text[1]", 0 ],
-			"obj-103::obj-167" : [ "record-codec[9]", "record-codec", 0 ],
-			"obj-100::obj-91::obj-8" : [ "live.button[97]", "live.button", 0 ],
-			"obj-37::obj-34" : [ "scale[16]", "scale", 0 ],
-			"obj-36::obj-162" : [ "rotateY[18]", "rotateY", 0 ],
-			"obj-27::obj-162" : [ "rotateY", "rotateY", 0 ],
-			"obj-104::obj-34" : [ "scale[19]", "scale", 0 ],
-			"obj-150::obj-123" : [ "thresh[2]", "thresh", 0 ],
-			"obj-151::obj-7" : [ "rate[3]", "rate", 0 ],
-			"obj-154::obj-91::obj-53" : [ "delayFrame[6]", "delayFrame", 0 ],
-			"obj-103::obj-123" : [ "thresh[10]", "thresh", 0 ],
-			"obj-100::obj-91::obj-33" : [ "live.button[95]", "live.button", 0 ],
-			"obj-36::obj-176" : [ "live.text[38]", "live.text[1]", 0 ],
-			"obj-148::obj-159" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-148::obj-7" : [ "rate", "rate", 0 ],
-			"obj-150::obj-179" : [ "live.button[8]", "live.button", 0 ],
-			"obj-154::obj-91::obj-10" : [ "playFrame[5]", "playFrame", 0 ],
-			"obj-103::obj-116" : [ "smooth[18]", "smooth", 0 ],
-			"obj-100::obj-147" : [ "smooth[22]", "smooth", 0 ],
-			"obj-56::obj-165" : [ "rotateX[14]", "rotateX", 0 ],
-			"obj-36::obj-147" : [ "smooth[34]", "smooth", 0 ],
-			"obj-27::obj-111" : [ "trans-mode[19]", "trans-mode", 0 ],
-			"obj-149::obj-66" : [ "live.numbox[33]", "live.numbox", 0 ],
-			"obj-154::obj-35" : [ "volume[6]", "volume", 0 ],
-			"obj-155::obj-91::obj-33" : [ "live.button[23]", "live.button", 0 ],
-			"obj-155::obj-176" : [ "live.text[28]", "live.text[1]", 0 ],
-			"obj-156::obj-91::obj-8" : [ "live.button[29]", "live.button", 0 ],
-			"obj-103::obj-91::obj-8" : [ "live.button[31]", "live.button", 0 ],
-			"obj-100::obj-57" : [ "loop-mode[12]", "loop-mode", 0 ],
-			"obj-14::obj-91::obj-53" : [ "delayFrame[12]", "delayFrame", 0 ],
-			"obj-56::obj-161" : [ "rotateZ[14]", "rotateZ", 0 ],
-			"obj-38::obj-161" : [ "rotateZ[16]", "rotateZ", 0 ],
-			"obj-27::obj-4" : [ "invert[19]", "invert", 0 ],
-			"obj-148::obj-161" : [ "rotateZ[1]", "rotateZ", 0 ],
-			"obj-149::obj-22" : [ "frames-available[1]", "frames-available", 0 ],
-			"obj-152::obj-147" : [ "smooth[9]", "smooth", 0 ],
-			"obj-153::obj-177" : [ "live-in[5]", "mode", 0 ],
-			"obj-154::obj-22" : [ "frames-available[6]", "frames-available", 0 ],
-			"obj-155::obj-46" : [ "gain[7]", "gain", 0 ],
-			"obj-156::obj-179" : [ "live.button[27]", "live.button", 0 ],
-			"obj-103::obj-21" : [ "frames-recorded[10]", "volume", 0 ],
-			"obj-100::obj-173" : [ "live.text[12]", "live.text", 0 ],
-			"obj-14::obj-165" : [ "rotateX[13]", "rotateX", 0 ],
-			"obj-56::obj-66" : [ "live.numbox[39]", "live.numbox", 0 ],
-			"obj-44::obj-91::obj-5" : [ "voices[14]", "voices", 0 ],
-			"obj-38::obj-57" : [ "loop-mode[16]", "loop-mode", 0 ],
-			"obj-148::obj-116" : [ "smooth[1]", "smooth", 0 ],
-			"obj-149::obj-91::obj-23" : [ "live.button[3]", "live.button", 0 ],
-			"obj-152::obj-46" : [ "gain[4]", "gain", 0 ],
-			"obj-153::obj-116" : [ "smooth[10]", "smooth", 0 ],
-			"obj-154::obj-56" : [ "rate-loop[6]", "rate-loop", 0 ],
-			"obj-155::obj-21" : [ "frames-recorded[7]", "volume", 0 ],
-			"obj-156::obj-91::obj-23" : [ "live.button[30]", "live.button", 0 ],
-			"obj-100::obj-165" : [ "rotateX[12]", "rotateX", 0 ],
-			"obj-14::obj-8" : [ "live.text[53]", "live.text[1]", 0 ],
-			"obj-56::obj-56" : [ "rate-loop[14]", "rate-loop", 0 ],
-			"obj-44::obj-91::obj-8" : [ "live.button[43]", "live.button", 0 ],
-			"obj-38::obj-91::obj-9" : [ "recordFrame[15]", "recordFrame", 0 ],
-			"obj-148::obj-57" : [ "loop-mode", "loop-mode", 0 ],
-			"obj-148::obj-91::obj-10" : [ "playFrame[24]", "playFrame", 0 ],
-			"obj-149::obj-123" : [ "thresh[1]", "thresh", 0 ],
-			"obj-149::obj-91::obj-33" : [ "live.button[1]", "live.button", 0 ],
-			"obj-152::obj-57" : [ "loop-mode[4]", "loop-mode", 0 ],
-			"obj-153::obj-147" : [ "smooth[11]", "smooth", 0 ],
-			"obj-155::obj-161" : [ "rotateZ[8]", "rotateZ", 0 ],
-			"obj-102::obj-167" : [ "record-codec[10]", "record-codec", 0 ],
-			"obj-14::obj-162" : [ "rotateY[13]", "rotateY", 0 ],
-			"obj-56::obj-159" : [ "live.toggle[14]", "live.toggle", 0 ],
-			"obj-44::obj-177" : [ "live-in[14]", "mode", 0 ],
-			"obj-38::obj-21" : [ "frames-recorded[16]", "volume", 0 ],
-			"obj-37::obj-66" : [ "live.numbox[11]", "live.numbox", 0 ],
-			"obj-104::obj-91::obj-8" : [ "live.button[65]", "live.button", 0 ],
 			"obj-148::obj-35" : [ "volume", "volume", 0 ],
-			"obj-149::obj-34" : [ "scale[1]", "scale", 0 ],
-			"obj-151::obj-173" : [ "live.text[3]", "live.text", 0 ],
-			"obj-152::obj-56" : [ "rate-loop[4]", "rate-loop", 0 ],
-			"obj-153::obj-142" : [ "mode[5]", "mode", 0 ],
-			"obj-155::obj-91::obj-5" : [ "voices[7]", "voices", 0 ],
-			"obj-102::obj-7" : [ "rate[11]", "rate", 0 ],
-			"obj-14::obj-147" : [ "smooth[25]", "smooth", 0 ],
-			"obj-56::obj-111" : [ "trans-mode[14]", "trans-mode", 0 ],
-			"obj-44::obj-167" : [ "record-codec[14]", "record-codec", 0 ],
-			"obj-38::obj-165" : [ "rotateX[16]", "rotateX", 0 ],
-			"obj-37::obj-7" : [ "rate[17]", "rate", 0 ],
-			"obj-27::obj-57" : [ "loop-mode[19]", "loop-mode", 0 ],
-			"obj-104::obj-91::obj-33" : [ "live.button[63]", "live.button", 0 ],
-			"obj-149::obj-4" : [ "invert[1]", "invert", 0 ],
-			"obj-151::obj-8" : [ "live.text[44]", "live.text[1]", 0 ],
-			"obj-152::obj-142" : [ "mode[4]", "mode", 0 ],
-			"obj-153::obj-159" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-155::obj-111" : [ "trans-mode[7]", "trans-mode", 0 ],
-			"obj-102::obj-91::obj-53" : [ "delayFrame[10]", "delayFrame", 0 ],
-			"obj-14::obj-123" : [ "thresh[13]", "thresh", 0 ],
-			"obj-44::obj-116" : [ "smooth[28]", "smooth", 0 ],
-			"obj-38::obj-142" : [ "mode[16]", "mode", 0 ],
-			"obj-37::obj-8" : [ "live.text[57]", "live.text[1]", 0 ],
-			"obj-104::obj-91::obj-9" : [ "recordFrame[19]", "recordFrame", 0 ],
-			"obj-150::obj-162" : [ "rotateY[3]", "rotateY", 0 ],
-			"obj-151::obj-91::obj-53" : [ "delayFrame[3]", "delayFrame", 0 ],
-			"obj-152::obj-123" : [ "thresh[4]", "thresh", 0 ],
-			"obj-153::obj-91::obj-9" : [ "recordFrame[5]", "recordFrame", 0 ],
-			"obj-156::obj-162" : [ "rotateY[9]", "rotateY", 0 ],
-			"obj-102::obj-162" : [ "rotateY[11]", "rotateY", 0 ],
-			"obj-14::obj-56" : [ "rate-loop[13]", "rate-loop", 0 ],
-			"obj-44::obj-147" : [ "smooth[29]", "smooth", 0 ],
-			"obj-38::obj-91::obj-10" : [ "playFrame[14]", "playFrame", 0 ],
-			"obj-37::obj-159" : [ "live.toggle[17]", "live.toggle", 0 ],
-			"obj-36::obj-21" : [ "frames-recorded[18]", "volume", 0 ],
-			"obj-27::obj-22" : [ "frames-available[19]", "frames-available", 0 ],
-			"obj-104::obj-176" : [ "live.text[39]", "live.text[1]", 0 ],
-			"obj-148::obj-142" : [ "mode", "mode", 0 ],
-			"obj-150::obj-91::obj-53" : [ "delayFrame[2]", "delayFrame", 0 ],
-			"obj-151::obj-147" : [ "smooth[7]", "smooth", 0 ],
-			"obj-152::obj-91::obj-33" : [ "live.button[14]", "live.button", 0 ],
-			"obj-156::obj-34" : [ "scale[8]", "scale", 0 ],
-			"obj-102::obj-22" : [ "frames-available[11]", "frames-available", 0 ],
-			"obj-44::obj-162" : [ "rotateY[15]", "rotateY", 0 ],
-			"obj-37::obj-142" : [ "mode[17]", "mode", 0 ],
-			"obj-36::obj-34" : [ "scale[17]", "scale", 0 ],
-			"obj-104::obj-91::obj-23" : [ "live.button[64]", "live.button", 0 ],
-			"obj-150::obj-46" : [ "gain[2]", "gain", 0 ],
-			"obj-151::obj-4" : [ "invert[3]", "invert", 0 ],
-			"obj-156::obj-91::obj-5" : [ "voices[8]", "voices", 0 ],
-			"obj-103::obj-4" : [ "invert[10]", "invert", 0 ],
-			"obj-102::obj-161" : [ "rotateZ[11]", "rotateZ", 0 ],
-			"obj-100::obj-159" : [ "live.toggle[12]", "live.toggle", 0 ],
-			"obj-37::obj-167" : [ "record-codec[16]", "record-codec", 0 ],
-			"obj-36::obj-116" : [ "smooth[35]", "smooth", 0 ],
-			"obj-27::obj-91::obj-53" : [ "delayFrame[18]", "delayFrame", 0 ],
-			"obj-104::obj-35" : [ "volume[9]", "volume", 0 ],
-			"obj-150::obj-173" : [ "live.text[2]", "live.text", 0 ],
-			"obj-150::obj-57" : [ "loop-mode[2]", "loop-mode", 0 ],
-			"obj-151::obj-21" : [ "frames-recorded[3]", "volume", 0 ],
-			"obj-154::obj-179" : [ "live.button[19]", "live.button", 0 ],
-			"obj-156::obj-22" : [ "frames-available[8]", "frames-available", 0 ],
-			"obj-103::obj-91::obj-33" : [ "live.button[33]", "live.button", 0 ],
-			"obj-100::obj-167" : [ "record-codec[11]", "record-codec", 0 ],
-			"obj-37::obj-123" : [ "thresh[17]", "thresh", 0 ],
-			"obj-36::obj-35" : [ "volume[18]", "volume", 0 ],
-			"obj-27::obj-161" : [ "rotateZ", "rotateZ", 0 ],
-			"obj-104::obj-91::obj-10" : [ "playFrame[18]", "playFrame", 0 ],
-			"obj-150::obj-177" : [ "live-in[2]", "mode", 0 ],
-			"obj-151::obj-111" : [ "trans-mode[3]", "trans-mode", 0 ],
-			"obj-154::obj-162" : [ "rotateY[7]", "rotateY", 0 ],
-			"obj-103::obj-35" : [ "volume[10]", "volume", 0 ],
-			"obj-100::obj-34" : [ "scale[11]", "scale", 0 ],
-			"obj-36::obj-8" : [ "live.text[58]", "live.text[1]", 0 ],
-			"obj-27::obj-8" : [ "live.text[40]", "live.text[1]", 0 ],
-			"obj-150::obj-66" : [ "live.numbox[35]", "live.numbox", 0 ],
-			"obj-154::obj-7" : [ "rate[6]", "rate", 0 ],
-			"obj-103::obj-111" : [ "trans-mode[10]", "trans-mode", 0 ],
-			"obj-100::obj-91::obj-5" : [ "voices[11]", "voices", 0 ],
-			"obj-56::obj-116" : [ "smooth[27]", "smooth", 0 ],
-			"obj-36::obj-4" : [ "invert[18]", "invert", 0 ],
-			"obj-27::obj-177" : [ "live-in[18]", "mode", 0 ],
-			"obj-149::obj-7" : [ "rate[1]", "rate", 0 ],
-			"obj-154::obj-111" : [ "trans-mode[6]", "trans-mode", 0 ],
-			"obj-155::obj-142" : [ "mode[7]", "mode", 0 ],
-			"obj-155::obj-34" : [ "scale[7]", "scale", 0 ],
-			"obj-156::obj-142" : [ "mode[8]", "mode", 0 ],
-			"obj-103::obj-56" : [ "rate-loop[10]", "rate-loop", 0 ],
-			"obj-100::obj-35" : [ "volume[12]", "volume", 0 ],
-			"obj-14::obj-91::obj-10" : [ "playFrame[11]", "playFrame", 0 ],
-			"obj-56::obj-176" : [ "live.text[34]", "live.text[1]", 0 ],
-			"obj-38::obj-147" : [ "smooth[31]", "smooth", 0 ],
-			"obj-27::obj-21" : [ "frames-recorded[19]", "volume", 0 ],
-			"obj-148::obj-123" : [ "thresh", "thresh", 0 ],
-			"obj-148::obj-8" : [ "live.text[41]", "live.text[1]", 0 ],
-			"obj-149::obj-21" : [ "frames-recorded[1]", "volume", 0 ],
-			"obj-152::obj-176" : [ "live.text[25]", "live.text[1]", 0 ],
-			"obj-153::obj-91::obj-53" : [ "delayFrame[5]", "delayFrame", 0 ],
-			"obj-154::obj-116" : [ "smooth[13]", "smooth", 0 ],
-			"obj-155::obj-22" : [ "frames-available[7]", "frames-available", 0 ],
-			"obj-156::obj-56" : [ "rate-loop[8]", "rate-loop", 0 ],
-			"obj-103::obj-142" : [ "mode[10]", "mode", 0 ],
-			"obj-100::obj-21" : [ "frames-recorded[12]", "volume", 0 ],
-			"obj-14::obj-142" : [ "mode[13]", "mode", 0 ],
-			"obj-56::obj-46" : [ "gain[14]", "gain", 0 ],
-			"obj-44::obj-7" : [ "rate[15]", "rate", 0 ],
-			"obj-38::obj-56" : [ "rate-loop[16]", "rate-loop", 0 ],
-			"obj-148::obj-91::obj-23" : [ "live.button[88]", "live.button", 0 ],
-			"obj-149::obj-91::obj-5" : [ "voices[1]", "voices", 0 ],
-			"obj-152::obj-91::obj-8" : [ "live.button[15]", "live.button", 0 ],
-			"obj-153::obj-167" : [ "record-codec[5]", "record-codec", 0 ],
-			"obj-154::obj-21" : [ "frames-recorded[6]", "volume", 0 ],
-			"obj-155::obj-116" : [ "smooth[15]", "smooth", 0 ],
-			"obj-156::obj-159" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-102::obj-91::obj-8" : [ "live.button[91]", "live.button", 0 ],
-			"obj-100::obj-116" : [ "smooth[23]", "smooth", 0 ],
-			"obj-14::obj-22" : [ "frames-available[13]", "frames-available", 0 ],
-			"obj-56::obj-91::obj-53" : [ "delayFrame[13]", "delayFrame", 0 ],
-			"obj-44::obj-57" : [ "loop-mode[15]", "loop-mode", 0 ],
-			"obj-38::obj-66" : [ "live.numbox[7]", "live.numbox", 0 ],
-			"obj-27::obj-91::obj-33" : [ "live.button[59]", "live.button", 0 ],
-			"obj-148::obj-91::obj-9" : [ "recordFrame[28]", "recordFrame", 0 ],
-			"obj-149::obj-116" : [ "smooth[2]", "smooth", 0 ],
-			"obj-152::obj-22" : [ "frames-available[4]", "frames-available", 0 ],
-			"obj-153::obj-91::obj-5" : [ "voices[5]", "voices", 0 ],
-			"obj-155::obj-91::obj-23" : [ "live.button[24]", "live.button", 0 ],
-			"obj-102::obj-57" : [ "loop-mode[11]", "loop-mode", 0 ],
-			"obj-14::obj-7" : [ "rate[13]", "rate", 0 ],
-			"obj-56::obj-22" : [ "frames-available[14]", "frames-available", 0 ],
-			"obj-44::obj-173" : [ "live.text[15]", "live.text", 0 ],
-			"obj-38::obj-91::obj-23" : [ "live.button[49]", "live.button", 0 ],
-			"obj-37::obj-4" : [ "invert[17]", "invert", 0 ],
-			"obj-104::obj-167" : [ "record-codec[19]", "record-codec", 0 ],
-			"obj-148::obj-46" : [ "gain", "gain", 0 ],
-			"obj-149::obj-91::obj-9" : [ "recordFrame[1]", "recordFrame", 0 ],
-			"obj-151::obj-57" : [ "loop-mode[3]", "loop-mode", 0 ],
-			"obj-152::obj-34" : [ "scale[4]", "scale", 0 ],
-			"obj-153::obj-21" : [ "frames-recorded[5]", "volume", 0 ],
-			"obj-155::obj-4" : [ "invert[7]", "invert", 0 ],
-			"obj-102::obj-176" : [ "live.text[31]", "live.text[1]", 0 ],
-			"obj-14::obj-159" : [ "live.toggle[13]", "live.toggle", 0 ],
-			"obj-56::obj-123" : [ "thresh[14]", "thresh", 0 ],
-			"obj-44::obj-179" : [ "live.button[45]", "live.button", 0 ],
-			"obj-38::obj-179" : [ "live.button[48]", "live.button", 0 ],
-			"obj-37::obj-116" : [ "smooth[33]", "smooth", 0 ],
-			"obj-104::obj-142" : [ "mode[9]", "mode", 0 ],
-			"obj-148::obj-22" : [ "frames-available", "frames-available", 0 ],
-			"obj-149::obj-111" : [ "trans-mode[1]", "trans-mode", 0 ],
-			"obj-150::obj-91::obj-10" : [ "playFrame[2]", "playFrame", 0 ],
-			"obj-151::obj-91::obj-23" : [ "live.button[11]", "live.button", 0 ],
-			"obj-152::obj-173" : [ "live.text[4]", "live.text", 0 ],
 			"obj-153::obj-57" : [ "loop-mode[5]", "loop-mode", 0 ],
-			"obj-155::obj-162" : [ "rotateY[8]", "rotateY", 0 ],
-			"obj-102::obj-91::obj-23" : [ "live.button[93]", "live.button", 0 ],
-			"obj-14::obj-91::obj-8" : [ "live.button[35]", "live.button", 0 ],
-			"obj-44::obj-91::obj-10" : [ "playFrame[13]", "playFrame", 0 ],
-			"obj-38::obj-8" : [ "live.text[56]", "live.text[1]", 0 ],
-			"obj-37::obj-179" : [ "live.button[52]", "live.button", 0 ],
-			"obj-36::obj-91::obj-53" : [ "delayFrame[17]", "delayFrame", 0 ],
-			"obj-104::obj-165" : [ "rotateX[19]", "rotateX", 0 ],
-			"obj-150::obj-116" : [ "smooth[4]", "smooth", 0 ],
-			"obj-151::obj-91::obj-33" : [ "live.button[12]", "live.button", 0 ],
-			"obj-152::obj-116" : [ "smooth[8]", "smooth", 0 ],
-			"obj-153::obj-91::obj-8" : [ "live.button[17]", "live.button", 0 ],
-			"obj-156::obj-57" : [ "loop-mode[8]", "loop-mode", 0 ],
-			"obj-102::obj-111" : [ "trans-mode[11]", "trans-mode", 0 ],
-			"obj-44::obj-8" : [ "live.text[55]", "live.text[1]", 0 ],
-			"obj-37::obj-91::obj-53" : [ "delayFrame[16]", "delayFrame", 0 ],
-			"obj-36::obj-159" : [ "live.toggle[18]", "live.toggle", 0 ],
-			"obj-104::obj-111" : [ "trans-mode[9]", "trans-mode", 0 ],
-			"obj-148::obj-21" : [ "frames-recorded", "volume", 0 ],
-			"obj-150::obj-142" : [ "mode[2]", "mode", 0 ],
-			"obj-151::obj-179" : [ "live.button[10]", "live.button", 0 ],
-			"obj-152::obj-179" : [ "live.button[13]", "live.button", 0 ],
-			"obj-156::obj-116" : [ "smooth[17]", "smooth", 0 ],
-			"obj-102::obj-8" : [ "live.text[51]", "live.text[1]", 0 ],
-			"obj-44::obj-46" : [ "gain[15]", "gain", 0 ],
-			"obj-37::obj-46" : [ "gain[17]", "gain", 0 ],
-			"obj-36::obj-91::obj-33" : [ "live.button[57]", "live.button", 0 ],
-			"obj-104::obj-66" : [ "live.numbox[25]", "live.numbox", 0 ],
-			"obj-148::obj-56" : [ "rate-loop", "rate-loop", 0 ],
-			"obj-150::obj-22" : [ "frames-available[2]", "frames-available", 0 ],
-			"obj-151::obj-176" : [ "live.text[24]", "live.text[1]", 0 ],
-			"obj-154::obj-91::obj-33" : [ "live.button[21]", "live.button", 0 ],
-			"obj-156::obj-35" : [ "volume[8]", "volume", 0 ],
-			"obj-103::obj-176" : [ "live.text[30]", "live.text[1]", 0 ],
-			"obj-102::obj-159" : [ "live.toggle[11]", "live.toggle", 0 ],
-			"obj-100::obj-176" : [ "live.text[32]", "live.text[1]", 0 ],
-			"obj-37::obj-162" : [ "rotateY[17]", "rotateY", 0 ],
-			"obj-36::obj-91::obj-10" : [ "playFrame[16]", "playFrame", 0 ],
-			"obj-27::obj-176" : [ "live.text[19]", "live.text[1]", 0 ],
-			"obj-104::obj-22" : [ "frames-available[9]", "frames-available", 0 ],
-			"obj-150::obj-91::obj-23" : [ "live.button[7]", "live.button", 0 ],
-			"obj-151::obj-123" : [ "thresh[3]", "thresh", 0 ],
-			"obj-154::obj-91::obj-9" : [ "recordFrame[6]", "recordFrame", 0 ],
-			"obj-156::obj-21" : [ "frames-recorded[8]", "volume", 0 ],
-			"obj-103::obj-57" : [ "loop-mode[10]", "loop-mode", 0 ],
-			"obj-100::obj-177" : [ "live-in[11]", "mode", 0 ],
-			"obj-36::obj-57" : [ "loop-mode[18]", "loop-mode", 0 ],
-			"obj-104::obj-123" : [ "thresh[9]", "thresh", 0 ],
-			"obj-148::obj-177" : [ "live-in", "mode", 0 ],
-			"obj-149::obj-173" : [ "live.text[1]", "live.text", 0 ],
-			"obj-150::obj-165" : [ "rotateX[3]", "rotateX", 0 ],
-			"obj-151::obj-22" : [ "frames-available[3]", "frames-available", 0 ],
-			"obj-154::obj-57" : [ "loop-mode[6]", "loop-mode", 0 ],
-			"obj-103::obj-91::obj-5" : [ "voices[9]", "voices", 0 ],
-			"obj-100::obj-91::obj-10" : [ "playFrame[10]", "playFrame", 0 ],
-			"obj-56::obj-91::obj-10" : [ "playFrame[12]", "playFrame", 0 ],
-			"obj-36::obj-179" : [ "live.button[58]", "live.button", 0 ],
-			"obj-150::obj-34" : [ "scale[2]", "scale", 0 ],
-			"obj-154::obj-91::obj-8" : [ "live.button[20]", "live.button", 0 ],
-			"obj-103::obj-91::obj-53" : [ "delayFrame[9]", "delayFrame", 0 ],
-			"obj-100::obj-22" : [ "frames-available[12]", "frames-available", 0 ],
-			"obj-56::obj-57" : [ "loop-mode[14]", "loop-mode", 0 ],
-			"obj-36::obj-46" : [ "gain[18]", "gain", 0 ],
-			"obj-148::obj-167" : [ "record-codec", "record-codec", 0 ],
-			"obj-149::obj-142" : [ "mode[1]", "mode", 0 ],
-			"obj-154::obj-8" : [ "live.text[47]", "live.text[1]", 0 ],
-			"obj-155::obj-159" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-155::obj-173" : [ "live.text[7]", "live.text", 0 ],
-			"obj-156::obj-8" : [ "live.text[29]", "live.text[1]", 0 ],
-			"obj-103::obj-22" : [ "frames-available[10]", "frames-available", 0 ],
-			"obj-100::obj-4" : [ "invert[12]", "invert", 0 ],
-			"obj-14::obj-173" : [ "live.text[13]", "live.text", 0 ],
-			"obj-56::obj-35" : [ "volume[14]", "volume", 0 ],
-			"obj-38::obj-111" : [ "trans-mode[16]", "trans-mode", 0 ],
-			"obj-148::obj-176" : [ "live.text[21]", "live.text[1]", 0 ],
-			"obj-148::obj-91::obj-53" : [ "delayFrame", "delayFrame", 0 ],
-			"obj-149::obj-167" : [ "record-codec[1]", "record-codec", 0 ],
-			"obj-149::obj-91::obj-8" : [ "live.button[2]", "live.button", 0 ],
-			"obj-152::obj-159" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-153::obj-91::obj-23" : [ "live.button[16]", "live.button", 0 ],
-			"obj-154::obj-123" : [ "thresh[6]", "thresh", 0 ],
-			"obj-155::obj-91::obj-8" : [ "live.button[26]", "live.button", 0 ],
-			"obj-156::obj-167" : [ "record-codec[8]", "record-codec", 0 ],
-			"obj-103::obj-179" : [ "live.button[32]", "live.button", 0 ],
-			"obj-100::obj-123" : [ "thresh[12]", "thresh", 0 ],
-			"obj-14::obj-161" : [ "rotateZ[13]", "rotateZ", 0 ],
-			"obj-56::obj-91::obj-23" : [ "live.button[42]", "live.button", 0 ],
-			"obj-44::obj-176" : [ "live.text[35]", "live.text[1]", 0 ],
-			"obj-38::obj-91::obj-8" : [ "live.button[50]", "live.button", 0 ],
-			"obj-27::obj-167" : [ "record-codec[18]", "record-codec", 0 ],
-			"obj-148::obj-66" : [ "live.numbox[27]", "live.numbox", 0 ],
-			"obj-149::obj-179" : [ "live.button[4]", "live.button", 0 ],
-			"obj-152::obj-177" : [ "live-in[4]", "mode", 0 ],
-			"obj-153::obj-173" : [ "live.text[5]", "live.text", 0 ],
-			"obj-154::obj-165" : [ "rotateX[7]", "rotateX", 0 ],
 			"obj-155::obj-179" : [ "live.button[25]", "live.button", 0 ],
-			"obj-102::obj-35" : [ "volume[11]", "volume", 0 ],
-			"obj-14::obj-116" : [ "smooth[24]", "smooth", 0 ],
-			"obj-56::obj-177" : [ "live-in[13]", "mode", 0 ],
-			"obj-44::obj-22" : [ "frames-available[15]", "frames-available", 0 ],
-			"obj-38::obj-123" : [ "thresh[16]", "thresh", 0 ],
-			"obj-149::obj-91::obj-10" : [ "playFrame[1]", "playFrame", 0 ],
-			"obj-152::obj-165" : [ "rotateX[5]", "rotateX", 0 ],
-			"obj-153::obj-162" : [ "rotateY[6]", "rotateY", 0 ],
-			"obj-155::obj-57" : [ "loop-mode[7]", "loop-mode", 0 ],
-			"obj-102::obj-66" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-14::obj-4" : [ "invert[13]", "invert", 0 ],
-			"obj-56::obj-91::obj-33" : [ "live.button[41]", "live.button", 0 ],
-			"obj-44::obj-91::obj-53" : [ "delayFrame[14]", "delayFrame", 0 ],
-			"obj-38::obj-176" : [ "live.text[36]", "live.text[1]", 0 ],
-			"obj-37::obj-176" : [ "live.text[37]", "live.text[1]", 0 ],
-			"obj-104::obj-8" : [ "live.text[59]", "live.text[1]", 0 ],
-			"obj-149::obj-91::obj-53" : [ "delayFrame[1]", "delayFrame", 0 ],
-			"obj-151::obj-66" : [ "live.numbox[9]", "live.numbox", 0 ],
-			"obj-152::obj-35" : [ "volume[4]", "volume", 0 ],
-			"obj-153::obj-91::obj-33" : [ "live.button[90]", "live.button", 0 ],
-			"obj-155::obj-91::obj-10" : [ "playFrame[6]", "playFrame", 0 ],
-			"obj-102::obj-116" : [ "smooth[20]", "smooth", 0 ],
-			"obj-14::obj-21" : [ "frames-recorded[13]", "volume", 0 ],
-			"obj-56::obj-91::obj-5" : [ "voices[13]", "voices", 0 ],
-			"obj-44::obj-66" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-103::obj-91::obj-10" : [ "playFrame[8]", "playFrame", 0 ],
 			"obj-38::obj-46" : [ "gain[16]", "gain", 0 ],
 			"obj-37::obj-91::obj-33" : [ "live.button[54]", "live.button", 0 ],
-			"obj-104::obj-161" : [ "rotateZ[19]", "rotateZ", 0 ],
-			"obj-150::obj-21" : [ "frames-recorded[2]", "volume", 0 ],
-			"obj-151::obj-142" : [ "mode[3]", "mode", 0 ],
-			"obj-152::obj-21" : [ "frames-recorded[4]", "volume", 0 ],
-			"obj-153::obj-35" : [ "volume[5]", "volume", 0 ],
-			"obj-155::obj-35" : [ "volume[7]", "volume", 0 ],
+			"obj-36::obj-91::obj-23" : [ "live.button[56]", "live.button", 0 ],
+			"obj-151::obj-116" : [ "smooth[6]", "smooth", 0 ],
+			"obj-153::obj-91::obj-33" : [ "live.button[90]", "live.button", 0 ],
+			"obj-155::obj-91::obj-33" : [ "live.button[23]", "live.button", 0 ],
+			"obj-103::obj-91::obj-8" : [ "live.button[31]", "live.button", 0 ],
+			"obj-38::obj-91::obj-9" : [ "recordFrame[15]", "recordFrame", 0 ],
+			"obj-37::obj-56" : [ "rate-loop[17]", "rate-loop", 0 ],
+			"obj-151::obj-161" : [ "rotateZ[4]", "rotateZ", 0 ],
+			"obj-153::obj-91::obj-5" : [ "voices[5]", "voices", 0 ],
+			"obj-155::obj-167" : [ "record-codec[7]", "record-codec", 0 ],
+			"obj-103::obj-91::obj-53" : [ "delayFrame[9]", "delayFrame", 0 ],
+			"obj-38::obj-35" : [ "volume[16]", "volume", 0 ],
+			"obj-37::obj-167" : [ "record-codec[16]", "record-codec", 0 ],
+			"obj-27::obj-91::obj-23" : [ "live.button[61]", "live.button", 0 ],
+			"obj-27::obj-159" : [ "live.toggle[19]", "live.toggle", 0 ],
+			"obj-148::obj-123" : [ "thresh", "thresh", 0 ],
+			"obj-151::obj-91::obj-8" : [ "live.button[9]", "live.button", 0 ],
+			"obj-153::obj-46" : [ "gain[5]", "gain", 0 ],
+			"obj-154::obj-91::obj-23" : [ "live.button[22]", "live.button", 0 ],
+			"obj-155::obj-162" : [ "rotateY[8]", "rotateY", 0 ],
+			"obj-103::obj-123" : [ "thresh[10]", "thresh", 0 ],
+			"obj-38::obj-91::obj-23" : [ "live.button[49]", "live.button", 0 ],
+			"obj-37::obj-177" : [ "live-in[16]", "mode", 0 ],
+			"obj-104::obj-91::obj-10" : [ "playFrame[18]", "playFrame", 0 ],
+			"obj-150::obj-91::obj-53" : [ "delayFrame[2]", "delayFrame", 0 ],
+			"obj-151::obj-147" : [ "smooth[7]", "smooth", 0 ],
+			"obj-153::obj-176" : [ "live.text[26]", "live.text[1]", 0 ],
+			"obj-154::obj-56" : [ "rate-loop[6]", "rate-loop", 0 ],
+			"obj-155::obj-22" : [ "frames-available[7]", "frames-available", 0 ],
+			"obj-156::obj-91::obj-5" : [ "voices[8]", "voices", 0 ],
 			"obj-102::obj-91::obj-9" : [ "recordFrame[10]", "recordFrame", 0 ],
-			"obj-14::obj-66" : [ "live.numbox[36]", "live.numbox", 0 ],
-			"obj-44::obj-142" : [ "mode[15]", "mode", 0 ],
+			"obj-100::obj-159" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-14::obj-147" : [ "smooth[25]", "smooth", 0 ],
+			"obj-56::obj-91::obj-53" : [ "delayFrame[13]", "delayFrame", 0 ],
+			"obj-37::obj-22" : [ "frames-available[17]", "frames-available", 0 ],
+			"obj-27::obj-165" : [ "rotateX", "rotateX", 0 ],
+			"obj-104::obj-21" : [ "frames-recorded[9]", "volume", 0 ],
+			"obj-150::obj-123" : [ "thresh[2]", "thresh", 0 ],
+			"obj-151::obj-34" : [ "scale[3]", "scale", 0 ],
+			"obj-152::obj-167" : [ "record-codec[4]", "record-codec", 0 ],
+			"obj-154::obj-91::obj-5" : [ "voices[6]", "voices", 0 ],
+			"obj-156::obj-66" : [ "live.numbox[29]", "live.numbox", 0 ],
+			"obj-102::obj-116" : [ "smooth[20]", "smooth", 0 ],
+			"obj-100::obj-56" : [ "rate-loop[12]", "rate-loop", 0 ],
+			"obj-14::obj-116" : [ "smooth[24]", "smooth", 0 ],
+			"obj-56::obj-91::obj-8" : [ "live.button[39]", "live.button", 0 ],
+			"obj-44::obj-7" : [ "rate[15]", "rate", 0 ],
+			"obj-37::obj-176" : [ "live.text[37]", "live.text[1]", 0 ],
+			"obj-37::obj-21" : [ "frames-recorded[17]", "volume", 0 ],
+			"obj-27::obj-35" : [ "volume[19]", "volume", 0 ],
+			"obj-104::obj-159" : [ "live.toggle[9]", "live.toggle", 0 ],
+			"obj-149::obj-167" : [ "record-codec[1]", "record-codec", 0 ],
+			"obj-150::obj-22" : [ "frames-available[2]", "frames-available", 0 ],
+			"obj-151::obj-4" : [ "invert[3]", "invert", 0 ],
+			"obj-152::obj-91::obj-33" : [ "live.button[14]", "live.button", 0 ],
+			"obj-152::obj-161" : [ "rotateZ[5]", "rotateZ", 0 ],
+			"obj-153::obj-91::obj-9" : [ "recordFrame[5]", "recordFrame", 0 ],
+			"obj-154::obj-167" : [ "record-codec[6]", "record-codec", 0 ],
+			"obj-156::obj-4" : [ "invert[8]", "invert", 0 ],
+			"obj-102::obj-91::obj-5" : [ "voices[10]", "voices", 0 ],
+			"obj-100::obj-91::obj-33" : [ "live.button[95]", "live.button", 0 ],
+			"obj-14::obj-91::obj-23" : [ "live.button[38]", "live.button", 0 ],
+			"obj-56::obj-57" : [ "loop-mode[14]", "loop-mode", 0 ],
+			"obj-44::obj-173" : [ "live.text[15]", "live.text", 0 ],
+			"obj-104::obj-116" : [ "smooth[39]", "smooth", 0 ],
+			"obj-149::obj-161" : [ "rotateZ[2]", "rotateZ", 0 ],
+			"obj-150::obj-91::obj-10" : [ "playFrame[2]", "playFrame", 0 ],
+			"obj-152::obj-116" : [ "smooth[8]", "smooth", 0 ],
+			"obj-152::obj-123" : [ "thresh[4]", "thresh", 0 ],
+			"obj-154::obj-91::obj-53" : [ "delayFrame[6]", "delayFrame", 0 ],
+			"obj-156::obj-8" : [ "live.text[29]", "live.text[1]", 0 ],
+			"obj-102::obj-46" : [ "gain[11]", "gain", 0 ],
+			"obj-100::obj-8" : [ "live.text[52]", "live.text[1]", 0 ],
+			"obj-14::obj-91::obj-10" : [ "playFrame[11]", "playFrame", 0 ],
+			"obj-56::obj-22" : [ "frames-available[14]", "frames-available", 0 ],
+			"obj-44::obj-91::obj-10" : [ "playFrame[13]", "playFrame", 0 ],
+			"obj-36::obj-111" : [ "trans-mode[18]", "trans-mode", 0 ],
+			"obj-27::obj-142" : [ "mode[19]", "mode", 0 ],
+			"obj-104::obj-179" : [ "live.button[66]", "live.button", 0 ],
+			"obj-149::obj-91::obj-23" : [ "live.button[3]", "live.button", 0 ],
+			"obj-150::obj-91::obj-5" : [ "voices[2]", "voices", 0 ],
+			"obj-152::obj-173" : [ "live.text[4]", "live.text", 0 ],
+			"obj-154::obj-111" : [ "trans-mode[6]", "trans-mode", 0 ],
+			"obj-156::obj-46" : [ "gain[8]", "gain", 0 ],
+			"obj-102::obj-91::obj-53" : [ "delayFrame[10]", "delayFrame", 0 ],
+			"obj-100::obj-167" : [ "record-codec[11]", "record-codec", 0 ],
+			"obj-14::obj-123" : [ "thresh[13]", "thresh", 0 ],
+			"obj-56::obj-116" : [ "smooth[27]", "smooth", 0 ],
+			"obj-44::obj-4" : [ "invert[15]", "invert", 0 ],
+			"obj-36::obj-167" : [ "record-codec[17]", "record-codec", 0 ],
+			"obj-104::obj-111" : [ "trans-mode[9]", "trans-mode", 0 ],
+			"obj-148::obj-91::obj-10" : [ "playFrame[24]", "playFrame", 0 ],
+			"obj-149::obj-66" : [ "live.numbox[33]", "live.numbox", 0 ],
+			"obj-150::obj-165" : [ "rotateX[3]", "rotateX", 0 ],
+			"obj-152::obj-142" : [ "mode[4]", "mode", 0 ],
+			"obj-154::obj-177" : [ "live-in[6]", "mode", 0 ],
+			"obj-156::obj-167" : [ "record-codec[8]", "record-codec", 0 ],
+			"obj-103::obj-177" : [ "live-in[9]", "mode", 0 ],
+			"obj-102::obj-7" : [ "rate[11]", "rate", 0 ],
+			"obj-100::obj-161" : [ "rotateZ[12]", "rotateZ", 0 ],
+			"obj-14::obj-165" : [ "rotateX[13]", "rotateX", 0 ],
+			"obj-56::obj-66" : [ "live.numbox[39]", "live.numbox", 0 ],
+			"obj-44::obj-46" : [ "gain[15]", "gain", 0 ],
+			"obj-36::obj-165" : [ "rotateX[18]", "rotateX", 0 ],
+			"obj-27::obj-66" : [ "live.numbox[17]", "live.numbox", 0 ],
+			"obj-104::obj-35" : [ "volume[9]", "volume", 0 ],
+			"obj-148::obj-91::obj-33" : [ "live.button[87]", "live.button", 0 ],
+			"obj-149::obj-7" : [ "rate[1]", "rate", 0 ],
+			"obj-150::obj-147" : [ "smooth[5]", "smooth", 0 ],
+			"obj-155::obj-7" : [ "rate[7]", "rate", 0 ],
+			"obj-156::obj-111" : [ "trans-mode[8]", "trans-mode", 0 ],
+			"obj-103::obj-173" : [ "live.text[10]", "live.text", 0 ],
+			"obj-100::obj-176" : [ "live.text[32]", "live.text[1]", 0 ],
+			"obj-56::obj-159" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-44::obj-161" : [ "rotateZ[15]", "rotateZ", 0 ],
+			"obj-38::obj-57" : [ "loop-mode[16]", "loop-mode", 0 ],
+			"obj-36::obj-91::obj-53" : [ "delayFrame[17]", "delayFrame", 0 ],
+			"obj-148::obj-165" : [ "rotateX[1]", "rotateX", 0 ],
+			"obj-149::obj-4" : [ "invert[1]", "invert", 0 ],
+			"obj-153::obj-56" : [ "rate-loop[5]", "rate-loop", 0 ],
+			"obj-155::obj-91::obj-9" : [ "recordFrame[7]", "recordFrame", 0 ],
+			"obj-103::obj-116" : [ "smooth[18]", "smooth", 0 ],
+			"obj-44::obj-35" : [ "volume[15]", "volume", 0 ],
+			"obj-38::obj-91::obj-53" : [ "delayFrame[15]", "delayFrame", 0 ],
+			"obj-36::obj-142" : [ "mode[18]", "mode", 0 ],
+			"obj-153::obj-91::obj-23" : [ "live.button[16]", "live.button", 0 ],
+			"obj-155::obj-161" : [ "rotateZ[8]", "rotateZ", 0 ],
+			"obj-103::obj-167" : [ "record-codec[9]", "record-codec", 0 ],
+			"obj-38::obj-56" : [ "rate-loop[16]", "rate-loop", 0 ],
+			"obj-37::obj-91::obj-5" : [ "voices[16]", "voices", 0 ],
+			"obj-36::obj-4" : [ "invert[18]", "invert", 0 ],
+			"obj-149::obj-91::obj-33" : [ "live.button[1]", "live.button", 0 ],
+			"obj-151::obj-57" : [ "loop-mode[3]", "loop-mode", 0 ],
+			"obj-153::obj-177" : [ "live-in[5]", "mode", 0 ],
+			"obj-155::obj-91::obj-23" : [ "live.button[24]", "live.button", 0 ],
+			"obj-103::obj-162" : [ "rotateY[10]", "rotateY", 0 ],
+			"obj-38::obj-7" : [ "rate[16]", "rate", 0 ],
+			"obj-37::obj-8" : [ "live.text[57]", "live.text[1]", 0 ],
+			"obj-151::obj-159" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-153::obj-116" : [ "smooth[10]", "smooth", 0 ],
+			"obj-155::obj-46" : [ "gain[7]", "gain", 0 ],
+			"obj-103::obj-91::obj-33" : [ "live.button[33]", "live.button", 0 ],
+			"obj-38::obj-111" : [ "trans-mode[16]", "trans-mode", 0 ],
+			"obj-37::obj-165" : [ "rotateX[17]", "rotateX", 0 ],
+			"obj-151::obj-91::obj-9" : [ "recordFrame[3]", "recordFrame", 0 ],
+			"obj-153::obj-147" : [ "smooth[11]", "smooth", 0 ],
+			"obj-154::obj-162" : [ "rotateY[7]", "rotateY", 0 ],
+			"obj-155::obj-116" : [ "smooth[15]", "smooth", 0 ],
+			"obj-103::obj-179" : [ "live.button[32]", "live.button", 0 ],
+			"obj-102::obj-91::obj-33" : [ "live.button[92]", "live.button", 0 ],
+			"obj-38::obj-161" : [ "rotateZ[16]", "rotateZ", 0 ],
+			"obj-37::obj-91::obj-53" : [ "delayFrame[16]", "delayFrame", 0 ],
+			"obj-27::obj-147" : [ "smooth[37]", "smooth", 0 ],
+			"obj-27::obj-46" : [ "gain[19]", "gain", 0 ],
+			"obj-104::obj-176" : [ "live.text[39]", "live.text[1]", 0 ],
+			"obj-150::obj-142" : [ "mode[2]", "mode", 0 ],
+			"obj-151::obj-35" : [ "volume[3]", "volume", 0 ],
+			"obj-153::obj-34" : [ "scale[5]", "scale", 0 ],
+			"obj-154::obj-91::obj-9" : [ "recordFrame[6]", "recordFrame", 0 ],
+			"obj-156::obj-176" : [ "live.text[49]", "live.text[1]", 0 ],
+			"obj-102::obj-142" : [ "mode[11]", "mode", 0 ],
+			"obj-100::obj-66" : [ "live.numbox[19]", "live.numbox", 0 ],
+			"obj-14::obj-35" : [ "volume[13]", "volume", 0 ],
+			"obj-56::obj-91::obj-9" : [ "recordFrame[13]", "recordFrame", 0 ],
+			"obj-37::obj-161" : [ "rotateZ[17]", "rotateZ", 0 ],
+			"obj-27::obj-56" : [ "rate-loop[19]", "rate-loop", 0 ],
+			"obj-27::obj-162" : [ "rotateY", "rotateY", 0 ],
+			"obj-27::obj-173" : [ "live.text[20]", "live.text", 0 ],
+			"obj-104::obj-91::obj-53" : [ "delayFrame[19]", "delayFrame", 0 ],
+			"obj-150::obj-91::obj-23" : [ "live.button[7]", "live.button", 0 ],
+			"obj-151::obj-21" : [ "frames-recorded[3]", "volume", 0 ],
+			"obj-152::obj-111" : [ "trans-mode[4]", "trans-mode", 0 ],
+			"obj-154::obj-91::obj-8" : [ "live.button[20]", "live.button", 0 ],
+			"obj-156::obj-7" : [ "rate[8]", "rate", 0 ],
+			"obj-102::obj-177" : [ "live-in[10]", "mode", 0 ],
+			"obj-100::obj-123" : [ "thresh[12]", "thresh", 0 ],
+			"obj-14::obj-56" : [ "rate-loop[13]", "rate-loop", 0 ],
+			"obj-56::obj-8" : [ "live.text[54]", "live.text[1]", 0 ],
+			"obj-44::obj-111" : [ "trans-mode[15]", "trans-mode", 0 ],
+			"obj-104::obj-91::obj-33" : [ "live.button[63]", "live.button", 0 ],
+			"obj-149::obj-165" : [ "rotateX[2]", "rotateX", 0 ],
+			"obj-150::obj-91::obj-33" : [ "live.button[6]", "live.button", 0 ],
+			"obj-151::obj-142" : [ "mode[3]", "mode", 0 ],
+			"obj-152::obj-91::obj-10" : [ "playFrame[4]", "playFrame", 0 ],
+			"obj-152::obj-4" : [ "invert[4]", "invert", 0 ],
+			"obj-153::obj-165" : [ "rotateX[6]", "rotateX", 0 ],
+			"obj-154::obj-165" : [ "rotateX[7]", "rotateX", 0 ],
+			"obj-156::obj-22" : [ "frames-available[8]", "frames-available", 0 ],
+			"obj-102::obj-176" : [ "live.text[31]", "live.text[1]", 0 ],
+			"obj-100::obj-91::obj-8" : [ "live.button[97]", "live.button", 0 ],
+			"obj-14::obj-91::obj-9" : [ "recordFrame[12]", "recordFrame", 0 ],
+			"obj-56::obj-147" : [ "smooth[26]", "smooth", 0 ],
+			"obj-44::obj-176" : [ "live.text[35]", "live.text[1]", 0 ],
+			"obj-27::obj-34" : [ "scale[18]", "scale", 0 ],
+			"obj-104::obj-142" : [ "mode[9]", "mode", 0 ],
+			"obj-149::obj-179" : [ "live.button[4]", "live.button", 0 ],
+			"obj-150::obj-167" : [ "record-codec[2]", "record-codec", 0 ],
+			"obj-152::obj-162" : [ "rotateY[5]", "rotateY", 0 ],
+			"obj-154::obj-179" : [ "live.button[19]", "live.button", 0 ],
+			"obj-156::obj-116" : [ "smooth[17]", "smooth", 0 ],
+			"obj-102::obj-165" : [ "rotateX[11]", "rotateX", 0 ],
+			"obj-100::obj-7" : [ "rate[12]", "rate", 0 ],
+			"obj-14::obj-21" : [ "frames-recorded[13]", "volume", 0 ],
+			"obj-56::obj-21" : [ "frames-recorded[14]", "volume", 0 ],
+			"obj-44::obj-91::obj-8" : [ "live.button[43]", "live.button", 0 ],
+			"obj-36::obj-56" : [ "rate-loop[18]", "rate-loop", 0 ],
+			"obj-104::obj-123" : [ "thresh[9]", "thresh", 0 ],
+			"obj-149::obj-159" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-150::obj-57" : [ "loop-mode[2]", "loop-mode", 0 ],
+			"obj-152::obj-66" : [ "live.numbox[20]", "live.numbox", 0 ],
+			"obj-154::obj-142" : [ "mode[6]", "mode", 0 ],
+			"obj-156::obj-34" : [ "scale[8]", "scale", 0 ],
+			"obj-102::obj-91::obj-23" : [ "live.button[93]", "live.button", 0 ],
+			"obj-100::obj-179" : [ "live.button[98]", "live.button", 0 ],
+			"obj-14::obj-8" : [ "live.text[53]", "live.text[1]", 0 ],
+			"obj-56::obj-91::obj-33" : [ "live.button[41]", "live.button", 0 ],
+			"obj-44::obj-56" : [ "rate-loop[15]", "rate-loop", 0 ],
+			"obj-36::obj-147" : [ "smooth[34]", "smooth", 0 ],
+			"obj-104::obj-56" : [ "rate-loop[9]", "rate-loop", 0 ],
+			"obj-148::obj-91::obj-9" : [ "recordFrame[28]", "recordFrame", 0 ],
+			"obj-149::obj-34" : [ "scale[1]", "scale", 0 ],
+			"obj-150::obj-8" : [ "live.text[43]", "live.text[1]", 0 ],
+			"obj-152::obj-8" : [ "live.text[45]", "live.text[1]", 0 ],
+			"obj-154::obj-161" : [ "rotateZ[7]", "rotateZ", 0 ],
+			"obj-156::obj-147" : [ "smooth[16]", "smooth", 0 ],
+			"obj-103::obj-4" : [ "invert[10]", "invert", 0 ],
+			"obj-102::obj-22" : [ "frames-available[11]", "frames-available", 0 ],
+			"obj-100::obj-111" : [ "trans-mode[12]", "trans-mode", 0 ],
+			"obj-14::obj-161" : [ "rotateZ[13]", "rotateZ", 0 ],
+			"obj-56::obj-111" : [ "trans-mode[14]", "trans-mode", 0 ],
+			"obj-44::obj-91::obj-23" : [ "live.button[46]", "live.button", 0 ],
+			"obj-36::obj-34" : [ "scale[17]", "scale", 0 ],
+			"obj-104::obj-4" : [ "invert[9]", "invert", 0 ],
+			"obj-148::obj-173" : [ "live.text", "live.text", 0 ],
+			"obj-148::obj-66" : [ "live.numbox[27]", "live.numbox", 0 ],
+			"obj-149::obj-56" : [ "rate-loop[1]", "rate-loop", 0 ],
+			"obj-155::obj-165" : [ "rotateX[8]", "rotateX", 0 ],
+			"obj-156::obj-56" : [ "rate-loop[8]", "rate-loop", 0 ],
+			"obj-103::obj-111" : [ "trans-mode[10]", "trans-mode", 0 ],
+			"obj-100::obj-57" : [ "loop-mode[12]", "loop-mode", 0 ],
+			"obj-56::obj-179" : [ "live.button[40]", "live.button", 0 ],
+			"obj-44::obj-116" : [ "smooth[28]", "smooth", 0 ],
+			"obj-38::obj-34" : [ "scale[15]", "scale", 0 ],
+			"obj-36::obj-177" : [ "live-in[17]", "mode", 0 ],
+			"obj-36::obj-162" : [ "rotateY[18]", "rotateY", 0 ],
+			"obj-149::obj-176" : [ "live.text[22]", "live.text[1]", 0 ],
+			"obj-153::obj-21" : [ "frames-recorded[5]", "volume", 0 ],
+			"obj-155::obj-91::obj-5" : [ "voices[7]", "voices", 0 ],
+			"obj-103::obj-91::obj-23" : [ "live.button[34]", "live.button", 0 ],
+			"obj-38::obj-91::obj-5" : [ "voices[15]", "voices", 0 ],
+			"obj-36::obj-8" : [ "live.text[58]", "live.text[1]", 0 ],
+			"obj-151::obj-91::obj-53" : [ "delayFrame[3]", "delayFrame", 0 ],
+			"obj-153::obj-142" : [ "mode[5]", "mode", 0 ],
+			"obj-155::obj-66" : [ "live.numbox[12]", "live.numbox", 0 ],
+			"obj-103::obj-165" : [ "rotateX[10]", "rotateX", 0 ],
+			"obj-38::obj-173" : [ "live.text[16]", "live.text", 0 ],
+			"obj-37::obj-34" : [ "scale[16]", "scale", 0 ],
+			"obj-36::obj-21" : [ "frames-recorded[18]", "volume", 0 ],
+			"obj-27::obj-91::obj-33" : [ "live.button[59]", "live.button", 0 ],
+			"obj-151::obj-173" : [ "live.text[3]", "live.text", 0 ],
+			"obj-153::obj-179" : [ "live.button[18]", "live.button", 0 ],
+			"obj-155::obj-91::obj-8" : [ "live.button[26]", "live.button", 0 ],
+			"obj-103::obj-35" : [ "volume[10]", "volume", 0 ],
+			"obj-38::obj-91::obj-10" : [ "playFrame[14]", "playFrame", 0 ],
+			"obj-37::obj-179" : [ "live.button[52]", "live.button", 0 ],
+			"obj-151::obj-179" : [ "live.button[10]", "live.button", 0 ],
+			"obj-153::obj-173" : [ "live.text[5]", "live.text", 0 ],
+			"obj-155::obj-176" : [ "live.text[28]", "live.text[1]", 0 ],
+			"obj-103::obj-159" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-38::obj-176" : [ "live.text[36]", "live.text[1]", 0 ],
+			"obj-37::obj-147" : [ "smooth[32]", "smooth", 0 ],
+			"obj-151::obj-165" : [ "rotateX[4]", "rotateX", 0 ],
+			"obj-153::obj-22" : [ "frames-available[5]", "frames-available", 0 ],
+			"obj-154::obj-147" : [ "smooth[12]", "smooth", 0 ],
+			"obj-155::obj-177" : [ "live-in[7]", "mode", 0 ],
+			"obj-103::obj-46" : [ "gain[10]", "gain", 0 ],
+			"obj-102::obj-35" : [ "volume[11]", "volume", 0 ],
 			"obj-38::obj-4" : [ "invert[16]", "invert", 0 ],
 			"obj-37::obj-57" : [ "loop-mode[17]", "loop-mode", 0 ],
-			"obj-36::obj-91::obj-23" : [ "live.button[56]", "live.button", 0 ],
-			"obj-27::obj-179" : [ "live.button[62]", "live.button", 0 ],
-			"obj-27::obj-91::obj-10" : [ "playFrame[17]", "playFrame", 0 ],
 			"obj-104::obj-46" : [ "gain[9]", "gain", 0 ],
+			"obj-150::obj-177" : [ "live-in[2]", "mode", 0 ],
+			"obj-151::obj-111" : [ "trans-mode[3]", "trans-mode", 0 ],
+			"obj-154::obj-35" : [ "volume[6]", "volume", 0 ],
+			"obj-156::obj-91::obj-53" : [ "delayFrame[8]", "delayFrame", 0 ],
+			"obj-102::obj-4" : [ "invert[11]", "invert", 0 ],
+			"obj-100::obj-91::obj-23" : [ "live.button[96]", "live.button", 0 ],
+			"obj-14::obj-142" : [ "mode[13]", "mode", 0 ],
+			"obj-56::obj-91::obj-5" : [ "voices[13]", "voices", 0 ],
+			"obj-37::obj-91::obj-9" : [ "recordFrame[16]", "recordFrame", 0 ],
+			"obj-37::obj-123" : [ "thresh[17]", "thresh", 0 ],
+			"obj-27::obj-161" : [ "rotateZ", "rotateZ", 0 ],
+			"obj-104::obj-91::obj-5" : [ "voices[19]", "voices", 0 ],
 			"obj-150::obj-91::obj-9" : [ "recordFrame[2]", "recordFrame", 0 ],
+			"obj-151::obj-7" : [ "rate[3]", "rate", 0 ],
+			"obj-152::obj-91::obj-8" : [ "live.button[15]", "live.button", 0 ],
+			"obj-154::obj-8" : [ "live.text[47]", "live.text[1]", 0 ],
+			"obj-156::obj-161" : [ "rotateZ[9]", "rotateZ", 0 ],
+			"obj-102::obj-111" : [ "trans-mode[11]", "trans-mode", 0 ],
+			"obj-100::obj-142" : [ "mode[12]", "mode", 0 ],
+			"obj-14::obj-34" : [ "scale[12]", "scale", 0 ],
+			"obj-56::obj-176" : [ "live.text[34]", "live.text[1]", 0 ],
+			"obj-44::obj-21" : [ "frames-recorded[15]", "volume", 0 ],
+			"obj-27::obj-91::obj-53" : [ "delayFrame[18]", "delayFrame", 0 ],
+			"obj-27::obj-4" : [ "invert[19]", "invert", 0 ],
+			"obj-27::obj-116" : [ "smooth[36]", "smooth", 0 ],
+			"obj-27::obj-22" : [ "frames-available[19]", "frames-available", 0 ],
+			"obj-104::obj-91::obj-8" : [ "live.button[65]", "live.button", 0 ],
+			"obj-148::obj-7" : [ "rate", "rate", 0 ],
+			"obj-149::obj-22" : [ "frames-available[1]", "frames-available", 0 ],
+			"obj-150::obj-4" : [ "invert[2]", "invert", 0 ],
+			"obj-150::obj-173" : [ "live.text[2]", "live.text", 0 ],
+			"obj-151::obj-8" : [ "live.text[44]", "live.text[1]", 0 ],
+			"obj-152::obj-177" : [ "live-in[4]", "mode", 0 ],
+			"obj-152::obj-176" : [ "live.text[25]", "live.text[1]", 0 ],
+			"obj-153::obj-123" : [ "thresh[5]", "thresh", 0 ],
+			"obj-154::obj-173" : [ "live.text[6]", "live.text", 0 ],
+			"obj-156::obj-142" : [ "mode[8]", "mode", 0 ],
+			"obj-102::obj-167" : [ "record-codec[10]", "record-codec", 0 ],
+			"obj-100::obj-35" : [ "volume[12]", "volume", 0 ],
+			"obj-14::obj-66" : [ "live.numbox[36]", "live.numbox", 0 ],
+			"obj-56::obj-46" : [ "gain[14]", "gain", 0 ],
+			"obj-44::obj-91::obj-53" : [ "delayFrame[14]", "delayFrame", 0 ],
+			"obj-27::obj-111" : [ "trans-mode[19]", "trans-mode", 0 ],
+			"obj-104::obj-66" : [ "live.numbox[25]", "live.numbox", 0 ],
+			"obj-149::obj-35" : [ "volume[1]", "volume", 0 ],
+			"obj-150::obj-179" : [ "live.button[8]", "live.button", 0 ],
+			"obj-152::obj-147" : [ "smooth[9]", "smooth", 0 ],
+			"obj-154::obj-116" : [ "smooth[13]", "smooth", 0 ],
+			"obj-156::obj-91::obj-23" : [ "live.button[30]", "live.button", 0 ],
+			"obj-102::obj-147" : [ "smooth[21]", "smooth", 0 ],
+			"obj-100::obj-165" : [ "rotateX[12]", "rotateX", 0 ],
+			"obj-14::obj-91::obj-8" : [ "live.button[35]", "live.button", 0 ],
+			"obj-56::obj-91::obj-10" : [ "playFrame[12]", "playFrame", 0 ],
+			"obj-44::obj-91::obj-5" : [ "voices[14]", "voices", 0 ],
+			"obj-36::obj-22" : [ "frames-available[18]", "frames-available", 0 ],
+			"obj-27::obj-8" : [ "live.text[40]", "live.text[1]", 0 ],
+			"obj-104::obj-91::obj-9" : [ "recordFrame[19]", "recordFrame", 0 ],
+			"obj-148::obj-147" : [ "smooth", "smooth", 0 ],
+			"obj-149::obj-57" : [ "loop-mode[1]", "loop-mode", 0 ],
+			"obj-150::obj-46" : [ "gain[2]", "gain", 0 ],
+			"obj-152::obj-165" : [ "rotateX[5]", "rotateX", 0 ],
+			"obj-154::obj-159" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-156::obj-123" : [ "thresh[8]", "thresh", 0 ],
+			"obj-102::obj-179" : [ "live.button[94]", "live.button", 0 ],
+			"obj-100::obj-4" : [ "invert[12]", "invert", 0 ],
+			"obj-14::obj-4" : [ "invert[13]", "invert", 0 ],
+			"obj-56::obj-142" : [ "mode[14]", "mode", 0 ],
+			"obj-44::obj-34" : [ "scale[14]", "scale", 0 ],
+			"obj-36::obj-176" : [ "live.text[38]", "live.text[1]", 0 ],
+			"obj-27::obj-177" : [ "live-in[18]", "mode", 0 ],
+			"obj-104::obj-57" : [ "loop-mode[9]", "loop-mode", 0 ],
+			"obj-148::obj-142" : [ "mode", "mode", 0 ],
+			"obj-148::obj-91::obj-5" : [ "voices[20]", "voices", 0 ],
+			"obj-149::obj-162" : [ "rotateY[2]", "rotateY", 0 ],
+			"obj-150::obj-66" : [ "live.numbox[35]", "live.numbox", 0 ],
+			"obj-156::obj-21" : [ "frames-recorded[8]", "volume", 0 ],
+			"obj-103::obj-142" : [ "mode[10]", "mode", 0 ],
+			"obj-102::obj-34" : [ "scale[10]", "scale", 0 ],
+			"obj-100::obj-116" : [ "smooth[23]", "smooth", 0 ],
+			"obj-14::obj-159" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-56::obj-91::obj-23" : [ "live.button[42]", "live.button", 0 ],
+			"obj-44::obj-162" : [ "rotateY[15]", "rotateY", 0 ],
+			"obj-38::obj-66" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-36::obj-91::obj-8" : [ "live.button[55]", "live.button", 0 ],
+			"obj-148::obj-91::obj-53" : [ "delayFrame", "delayFrame", 0 ],
+			"obj-148::obj-176" : [ "live.text[21]", "live.text[1]", 0 ],
+			"obj-149::obj-142" : [ "mode[1]", "mode", 0 ],
+			"obj-153::obj-8" : [ "live.text[46]", "live.text[1]", 0 ],
+			"obj-155::obj-8" : [ "live.text[48]", "live.text[1]", 0 ],
+			"obj-103::obj-22" : [ "frames-available[10]", "frames-available", 0 ],
+			"obj-44::obj-177" : [ "live-in[14]", "mode", 0 ],
+			"obj-38::obj-165" : [ "rotateX[16]", "rotateX", 0 ],
+			"obj-36::obj-161" : [ "rotateZ[18]", "rotateZ", 0 ],
+			"obj-36::obj-173" : [ "live.text[18]", "live.text", 0 ],
+			"obj-149::obj-91::obj-8" : [ "live.button[2]", "live.button", 0 ],
+			"obj-149::obj-91::obj-5" : [ "voices[1]", "voices", 0 ],
+			"obj-153::obj-91::obj-10" : [ "playFrame[25]", "playFrame", 0 ],
+			"obj-155::obj-173" : [ "live.text[7]", "live.text", 0 ],
+			"obj-103::obj-57" : [ "loop-mode[10]", "loop-mode", 0 ],
+			"obj-38::obj-142" : [ "mode[16]", "mode", 0 ],
+			"obj-37::obj-91::obj-10" : [ "playFrame[15]", "playFrame", 0 ],
+			"obj-36::obj-91::obj-33" : [ "live.button[57]", "live.button", 0 ],
+			"obj-151::obj-167" : [ "record-codec[3]", "record-codec", 0 ],
+			"obj-153::obj-162" : [ "rotateY[6]", "rotateY", 0 ],
+			"obj-155::obj-4" : [ "invert[7]", "invert", 0 ],
+			"obj-103::obj-161" : [ "rotateZ[10]", "rotateZ", 0 ],
+			"obj-38::obj-147" : [ "smooth[31]", "smooth", 0 ],
+			"obj-37::obj-91::obj-23" : [ "live.button[51]", "live.button", 0 ],
+			"obj-36::obj-123" : [ "thresh[18]", "thresh", 0 ],
+			"obj-151::obj-46" : [ "gain[3]", "gain", 0 ],
+			"obj-153::obj-4" : [ "invert[5]", "invert", 0 ],
+			"obj-155::obj-57" : [ "loop-mode[7]", "loop-mode", 0 ],
+			"obj-103::obj-56" : [ "rate-loop[10]", "rate-loop", 0 ],
+			"obj-38::obj-91::obj-8" : [ "live.button[50]", "live.button", 0 ],
+			"obj-37::obj-173" : [ "live.text[17]", "live.text", 0 ],
+			"obj-148::obj-21" : [ "frames-recorded", "volume", 0 ],
+			"obj-151::obj-91::obj-23" : [ "live.button[11]", "live.button", 0 ],
+			"obj-153::obj-7" : [ "rate[5]", "rate", 0 ],
+			"obj-155::obj-21" : [ "frames-recorded[7]", "volume", 0 ],
+			"obj-103::obj-66" : [ "live.numbox[30]", "live.numbox", 0 ],
+			"obj-38::obj-21" : [ "frames-recorded[16]", "volume", 0 ],
+			"obj-37::obj-162" : [ "rotateY[17]", "rotateY", 0 ],
+			"obj-148::obj-46" : [ "gain", "gain", 0 ],
+			"obj-148::obj-56" : [ "rate-loop", "rate-loop", 0 ],
+			"obj-151::obj-162" : [ "rotateY[4]", "rotateY", 0 ],
+			"obj-153::obj-91::obj-53" : [ "delayFrame[5]", "delayFrame", 0 ],
+			"obj-154::obj-57" : [ "loop-mode[6]", "loop-mode", 0 ],
+			"obj-155::obj-159" : [ "live.toggle[7]", "live.toggle", 0 ],
+			"obj-102::obj-91::obj-8" : [ "live.button[91]", "live.button", 0 ],
+			"obj-14::obj-91::obj-53" : [ "delayFrame[12]", "delayFrame", 0 ],
+			"obj-38::obj-116" : [ "smooth[30]", "smooth", 0 ],
+			"obj-37::obj-111" : [ "trans-mode[17]", "trans-mode", 0 ],
+			"obj-27::obj-91::obj-10" : [ "playFrame[17]", "playFrame", 0 ],
+			"obj-104::obj-165" : [ "rotateX[19]", "rotateX", 0 ],
+			"obj-148::obj-4" : [ "invert", "invert", 0 ],
+			"obj-148::obj-22" : [ "frames-available", "frames-available", 0 ],
+			"obj-150::obj-176" : [ "live.text[23]", "live.text[1]", 0 ],
+			"obj-151::obj-56" : [ "rate-loop[3]", "rate-loop", 0 ],
+			"obj-152::obj-57" : [ "loop-mode[4]", "loop-mode", 0 ],
+			"obj-154::obj-176" : [ "live.text[27]", "live.text[1]", 0 ],
+			"obj-156::obj-91::obj-8" : [ "live.button[29]", "live.button", 0 ],
+			"obj-102::obj-56" : [ "rate-loop[11]", "rate-loop", 0 ],
+			"obj-100::obj-46" : [ "gain[12]", "gain", 0 ],
+			"obj-14::obj-177" : [ "live-in[12]", "mode", 0 ],
+			"obj-56::obj-173" : [ "live.text[14]", "live.text", 0 ],
+			"obj-37::obj-91::obj-8" : [ "live.button[53]", "live.button", 0 ],
+			"obj-37::obj-116" : [ "smooth[33]", "smooth", 0 ],
+			"obj-27::obj-123" : [ "thresh[19]", "thresh", 0 ],
+			"obj-104::obj-177" : [ "live-in[19]", "mode", 0 ],
+			"obj-150::obj-7" : [ "rate[2]", "rate", 0 ],
+			"obj-151::obj-123" : [ "thresh[3]", "thresh", 0 ],
+			"obj-152::obj-35" : [ "volume[4]", "volume", 0 ],
+			"obj-152::obj-91::obj-23" : [ "live.button[89]", "live.button", 0 ],
+			"obj-154::obj-4" : [ "invert[6]", "invert", 0 ],
+			"obj-156::obj-179" : [ "live.button[27]", "live.button", 0 ],
+			"obj-102::obj-91::obj-10" : [ "playFrame[9]", "playFrame", 0 ],
+			"obj-100::obj-147" : [ "smooth[22]", "smooth", 0 ],
+			"obj-14::obj-57" : [ "loop-mode[13]", "loop-mode", 0 ],
+			"obj-56::obj-123" : [ "thresh[14]", "thresh", 0 ],
+			"obj-44::obj-147" : [ "smooth[29]", "smooth", 0 ],
+			"obj-27::obj-91::obj-8" : [ "live.button[60]", "live.button", 0 ],
+			"obj-104::obj-147" : [ "smooth[38]", "smooth", 0 ],
+			"obj-149::obj-123" : [ "thresh[1]", "thresh", 0 ],
+			"obj-150::obj-161" : [ "rotateZ[3]", "rotateZ", 0 ],
+			"obj-151::obj-66" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-152::obj-179" : [ "live.button[13]", "live.button", 0 ],
+			"obj-152::obj-46" : [ "gain[4]", "gain", 0 ],
+			"obj-154::obj-46" : [ "gain[6]", "gain", 0 ],
+			"obj-156::obj-177" : [ "live-in[8]", "mode", 0 ],
+			"obj-102::obj-162" : [ "rotateY[11]", "rotateY", 0 ],
+			"obj-100::obj-91::obj-10" : [ "playFrame[10]", "playFrame", 0 ],
+			"obj-14::obj-7" : [ "rate[13]", "rate", 0 ],
+			"obj-56::obj-165" : [ "rotateX[14]", "rotateX", 0 ],
+			"obj-44::obj-91::obj-9" : [ "recordFrame[14]", "recordFrame", 0 ],
+			"obj-27::obj-91::obj-5" : [ "voices[18]", "voices", 0 ],
+			"obj-104::obj-22" : [ "frames-available[9]", "frames-available", 0 ],
+			"obj-148::obj-177" : [ "live-in", "mode", 0 ],
+			"obj-149::obj-173" : [ "live.text[1]", "live.text", 0 ],
+			"obj-149::obj-111" : [ "trans-mode[1]", "trans-mode", 0 ],
+			"obj-150::obj-35" : [ "volume[2]", "volume", 0 ],
+			"obj-152::obj-159" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-154::obj-22" : [ "frames-available[6]", "frames-available", 0 ],
+			"obj-156::obj-91::obj-33" : [ "live.button[28]", "live.button", 0 ],
+			"obj-102::obj-173" : [ "live.text[11]", "live.text", 0 ],
+			"obj-100::obj-91::obj-53" : [ "delayFrame[11]", "delayFrame", 0 ],
+			"obj-14::obj-91::obj-5" : [ "voices[12]", "voices", 0 ],
+			"obj-56::obj-35" : [ "volume[14]", "volume", 0 ],
+			"obj-44::obj-159" : [ "live.toggle[15]", "live.toggle", 0 ],
+			"obj-36::obj-159" : [ "live.toggle[18]", "live.toggle", 0 ],
+			"obj-104::obj-8" : [ "live.text[59]", "live.text[1]", 0 ],
+			"obj-148::obj-116" : [ "smooth[1]", "smooth", 0 ],
+			"obj-148::obj-57" : [ "loop-mode", "loop-mode", 0 ],
+			"obj-149::obj-46" : [ "gain[1]", "gain", 0 ],
+			"obj-150::obj-162" : [ "rotateY[3]", "rotateY", 0 ],
+			"obj-152::obj-91::obj-5" : [ "voices[4]", "voices", 0 ],
+			"obj-154::obj-34" : [ "scale[6]", "scale", 0 ],
+			"obj-156::obj-165" : [ "rotateX[9]", "rotateX", 0 ],
+			"obj-102::obj-161" : [ "rotateZ[11]", "rotateZ", 0 ],
+			"obj-100::obj-34" : [ "scale[11]", "scale", 0 ],
+			"obj-14::obj-22" : [ "frames-available[13]", "frames-available", 0 ],
+			"obj-56::obj-177" : [ "live-in[13]", "mode", 0 ],
+			"obj-44::obj-91::obj-33" : [ "live.button[44]", "live.button", 0 ],
+			"obj-36::obj-91::obj-10" : [ "playFrame[16]", "playFrame", 0 ],
+			"obj-104::obj-34" : [ "scale[19]", "scale", 0 ],
+			"obj-148::obj-167" : [ "record-codec", "record-codec", 0 ],
+			"obj-148::obj-91::obj-8" : [ "live.button[85]", "live.button", 0 ],
+			"obj-149::obj-91::obj-53" : [ "delayFrame[1]", "delayFrame", 0 ],
+			"obj-150::obj-56" : [ "rate-loop[2]", "rate-loop", 0 ],
+			"obj-155::obj-91::obj-10" : [ "playFrame[6]", "playFrame", 0 ],
+			"obj-156::obj-57" : [ "loop-mode[8]", "loop-mode", 0 ],
+			"obj-103::obj-147" : [ "smooth[19]", "smooth", 0 ],
+			"obj-100::obj-162" : [ "rotateY[12]", "rotateY", 0 ],
+			"obj-14::obj-179" : [ "live.button[36]", "live.button", 0 ],
+			"obj-56::obj-4" : [ "invert[14]", "invert", 0 ],
+			"obj-44::obj-142" : [ "mode[15]", "mode", 0 ],
+			"obj-38::obj-22" : [ "frames-available[16]", "frames-available", 0 ],
+			"obj-36::obj-46" : [ "gain[18]", "gain", 0 ],
+			"obj-27::obj-57" : [ "loop-mode[19]", "loop-mode", 0 ],
+			"obj-148::obj-8" : [ "live.text[41]", "live.text[1]", 0 ],
+			"obj-149::obj-147" : [ "smooth[3]", "smooth", 0 ],
+			"obj-153::obj-66" : [ "live.numbox[22]", "live.numbox", 0 ],
+			"obj-155::obj-111" : [ "trans-mode[7]", "trans-mode", 0 ],
+			"obj-103::obj-91::obj-9" : [ "recordFrame[9]", "recordFrame", 0 ],
+			"obj-44::obj-22" : [ "frames-available[15]", "frames-available", 0 ],
+			"obj-38::obj-159" : [ "live.toggle[16]", "live.toggle", 0 ],
+			"obj-36::obj-7" : [ "rate[18]", "rate", 0 ],
+			"obj-36::obj-57" : [ "loop-mode[18]", "loop-mode", 0 ],
+			"obj-27::obj-167" : [ "record-codec[18]", "record-codec", 0 ],
+			"obj-153::obj-167" : [ "record-codec[5]", "record-codec", 0 ],
+			"obj-155::obj-56" : [ "rate-loop[7]", "rate-loop", 0 ],
+			"obj-103::obj-21" : [ "frames-recorded[10]", "volume", 0 ],
+			"obj-38::obj-179" : [ "live.button[48]", "live.button", 0 ],
+			"obj-37::obj-4" : [ "invert[17]", "invert", 0 ],
+			"obj-36::obj-179" : [ "live.button[58]", "live.button", 0 ],
+			"obj-151::obj-176" : [ "live.text[24]", "live.text[1]", 0 ],
+			"obj-153::obj-35" : [ "volume[5]", "volume", 0 ],
+			"obj-155::obj-123" : [ "thresh[7]", "thresh", 0 ],
+			"obj-103::obj-176" : [ "live.text[30]", "live.text[1]", 0 ],
+			"obj-38::obj-123" : [ "thresh[16]", "thresh", 0 ],
+			"obj-37::obj-7" : [ "rate[17]", "rate", 0 ],
+			"obj-151::obj-91::obj-5" : [ "voices[3]", "voices", 0 ],
+			"obj-153::obj-111" : [ "trans-mode[5]", "trans-mode", 0 ],
+			"obj-155::obj-34" : [ "scale[7]", "scale", 0 ],
+			"obj-103::obj-91::obj-5" : [ "voices[9]", "voices", 0 ],
+			"obj-38::obj-167" : [ "record-codec[15]", "record-codec", 0 ],
+			"obj-37::obj-35" : [ "volume[17]", "volume", 0 ],
+			"obj-148::obj-159" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-149::obj-177" : [ "live-in[1]", "mode", 0 ],
+			"obj-151::obj-91::obj-33" : [ "live.button[12]", "live.button", 0 ],
+			"obj-153::obj-159" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-155::obj-147" : [ "smooth[14]", "smooth", 0 ],
+			"obj-103::obj-7" : [ "rate[10]", "rate", 0 ],
+			"obj-38::obj-91::obj-33" : [ "live.button[47]", "live.button", 0 ],
+			"obj-37::obj-142" : [ "mode[17]", "mode", 0 ],
+			"obj-27::obj-179" : [ "live.button[62]", "live.button", 0 ],
+			"obj-151::obj-177" : [ "live-in[3]", "mode", 0 ],
+			"obj-153::obj-91::obj-8" : [ "live.button[17]", "live.button", 0 ],
+			"obj-154::obj-7" : [ "rate[6]", "rate", 0 ],
+			"obj-155::obj-35" : [ "volume[7]", "volume", 0 ],
+			"obj-102::obj-66" : [ "live.numbox[3]", "live.numbox", 0 ],
+			"obj-14::obj-162" : [ "rotateY[13]", "rotateY", 0 ],
+			"obj-38::obj-162" : [ "rotateY[16]", "rotateY", 0 ],
+			"obj-37::obj-46" : [ "gain[17]", "gain", 0 ],
+			"obj-27::obj-7" : [ "rate[19]", "rate", 0 ],
+			"obj-27::obj-176" : [ "live.text[19]", "live.text[1]", 0 ],
+			"obj-104::obj-161" : [ "rotateZ[19]", "rotateZ", 0 ],
+			"obj-148::obj-179" : [ "live.button", "live.button", 0 ],
+			"obj-148::obj-111" : [ "trans-mode", "trans-mode", 0 ],
+			"obj-150::obj-21" : [ "frames-recorded[2]", "volume", 0 ],
+			"obj-151::obj-22" : [ "frames-available[3]", "frames-available", 0 ],
+			"obj-152::obj-56" : [ "rate-loop[4]", "rate-loop", 0 ],
+			"obj-154::obj-91::obj-10" : [ "playFrame[5]", "playFrame", 0 ],
+			"obj-156::obj-159" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-102::obj-123" : [ "thresh[11]", "thresh", 0 ],
+			"obj-100::obj-177" : [ "live-in[11]", "mode", 0 ],
+			"obj-14::obj-176" : [ "live.text[33]", "live.text[1]", 0 ],
+			"obj-56::obj-34" : [ "scale[13]", "scale", 0 ],
+			"obj-44::obj-57" : [ "loop-mode[15]", "loop-mode", 0 ],
+			"obj-37::obj-66" : [ "live.numbox[11]", "live.numbox", 0 ],
+			"obj-37::obj-159" : [ "live.toggle[17]", "live.toggle", 0 ],
+			"obj-27::obj-91::obj-9" : [ "recordFrame[18]", "recordFrame", 0 ],
+			"obj-104::obj-162" : [ "rotateY[19]", "rotateY", 0 ],
+			"obj-150::obj-111" : [ "trans-mode[2]", "trans-mode", 0 ],
 			"obj-151::obj-91::obj-10" : [ "playFrame[3]", "playFrame", 0 ],
 			"obj-152::obj-91::obj-53" : [ "delayFrame[4]", "delayFrame", 0 ],
-			"obj-153::obj-8" : [ "live.text[46]", "live.text[1]", 0 ],
-			"obj-156::obj-66" : [ "live.numbox[29]", "live.numbox", 0 ],
-			"obj-102::obj-91::obj-5" : [ "voices[10]", "voices", 0 ],
-			"obj-44::obj-91::obj-33" : [ "live.button[44]", "live.button", 0 ],
-			"obj-37::obj-91::obj-9" : [ "recordFrame[16]", "recordFrame", 0 ],
-			"obj-36::obj-142" : [ "mode[18]", "mode", 0 ],
-			"obj-104::obj-91::obj-5" : [ "voices[19]", "voices", 0 ],
-			"obj-149::obj-177" : [ "live-in[1]", "mode", 0 ],
-			"obj-150::obj-35" : [ "volume[2]", "volume", 0 ],
-			"obj-151::obj-34" : [ "scale[3]", "scale", 0 ],
+			"obj-152::obj-91::obj-9" : [ "recordFrame[4]", "recordFrame", 0 ],
+			"obj-154::obj-123" : [ "thresh[6]", "thresh", 0 ],
+			"obj-156::obj-173" : [ "live.text[8]", "live.text", 0 ],
+			"obj-102::obj-159" : [ "live.toggle[11]", "live.toggle", 0 ],
+			"obj-100::obj-22" : [ "frames-available[12]", "frames-available", 0 ],
+			"obj-14::obj-91::obj-33" : [ "live.button[37]", "live.button", 0 ],
+			"obj-56::obj-162" : [ "rotateY[14]", "rotateY", 0 ],
+			"obj-44::obj-66" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-104::obj-173" : [ "live.text[9]", "live.text", 0 ],
+			"obj-149::obj-21" : [ "frames-recorded[1]", "volume", 0 ],
+			"obj-150::obj-34" : [ "scale[2]", "scale", 0 ],
+			"obj-152::obj-22" : [ "frames-available[4]", "frames-available", 0 ],
+			"obj-152::obj-34" : [ "scale[4]", "scale", 0 ],
+			"obj-154::obj-21" : [ "frames-recorded[6]", "volume", 0 ],
+			"obj-156::obj-162" : [ "rotateY[9]", "rotateY", 0 ],
+			"obj-102::obj-57" : [ "loop-mode[11]", "loop-mode", 0 ],
+			"obj-100::obj-91::obj-9" : [ "recordFrame[11]", "recordFrame", 0 ],
+			"obj-14::obj-46" : [ "gain[13]", "gain", 0 ],
+			"obj-56::obj-167" : [ "record-codec[13]", "record-codec", 0 ],
+			"obj-44::obj-123" : [ "thresh[15]", "thresh", 0 ],
+			"obj-36::obj-35" : [ "volume[18]", "volume", 0 ],
+			"obj-104::obj-91::obj-23" : [ "live.button[64]", "live.button", 0 ],
+			"obj-149::obj-116" : [ "smooth[2]", "smooth", 0 ],
+			"obj-150::obj-116" : [ "smooth[4]", "smooth", 0 ],
+			"obj-152::obj-21" : [ "frames-recorded[4]", "volume", 0 ],
+			"obj-154::obj-66" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-156::obj-91::obj-9" : [ "recordFrame[8]", "recordFrame", 0 ],
-			"obj-103::obj-91::obj-23" : [ "live.button[34]", "live.button", 0 ],
-			"obj-102::obj-91::obj-33" : [ "live.button[92]", "live.button", 0 ],
-			"obj-37::obj-21" : [ "frames-recorded[17]", "volume", 0 ],
-			"obj-36::obj-167" : [ "record-codec[17]", "record-codec", 0 ],
-			"obj-27::obj-91::obj-8" : [ "live.button[60]", "live.button", 0 ],
-			"obj-104::obj-7" : [ "rate[9]", "rate", 0 ],
-			"obj-150::obj-159" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-151::obj-159" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-154::obj-91::obj-23" : [ "live.button[22]", "live.button", 0 ],
-			"obj-156::obj-7" : [ "rate[8]", "rate", 0 ],
-			"obj-103::obj-147" : [ "smooth[19]", "smooth", 0 ],
 			"obj-102::obj-21" : [ "frames-recorded[11]", "volume", 0 ],
-			"obj-100::obj-179" : [ "live.button[98]", "live.button", 0 ],
-			"obj-37::obj-22" : [ "frames-available[17]", "frames-available", 0 ],
-			"obj-36::obj-161" : [ "rotateZ[18]", "rotateZ", 0 ],
-			"obj-27::obj-7" : [ "rate[19]", "rate", 0 ],
-			"obj-27::obj-91::obj-5" : [ "voices[18]", "voices", 0 ],
-			"obj-104::obj-91::obj-53" : [ "delayFrame[19]", "delayFrame", 0 ]
+			"obj-100::obj-91::obj-5" : [ "voices[11]", "voices", 0 ],
+			"obj-14::obj-173" : [ "live.text[13]", "live.text", 0 ],
+			"obj-56::obj-7" : [ "rate[14]", "rate", 0 ],
+			"obj-44::obj-179" : [ "live.button[45]", "live.button", 0 ],
+			"obj-36::obj-91::obj-9" : [ "recordFrame[17]", "recordFrame", 0 ],
+			"obj-104::obj-7" : [ "rate[9]", "rate", 0 ],
+			"obj-148::obj-161" : [ "rotateZ[1]", "rotateZ", 0 ],
+			"obj-148::obj-34" : [ "scale", "scale", 0 ],
+			"obj-149::obj-91::obj-9" : [ "recordFrame[1]", "recordFrame", 0 ],
+			"obj-150::obj-159" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-152::obj-7" : [ "rate[4]", "rate", 0 ],
+			"obj-154::obj-91::obj-33" : [ "live.button[21]", "live.button", 0 ],
+			"obj-156::obj-91::obj-10" : [ "playFrame[7]", "playFrame", 0 ],
+			"obj-102::obj-8" : [ "live.text[51]", "live.text[1]", 0 ],
+			"obj-100::obj-21" : [ "frames-recorded[12]", "volume", 0 ],
+			"obj-14::obj-167" : [ "record-codec[12]", "record-codec", 0 ],
+			"obj-56::obj-161" : [ "rotateZ[14]", "rotateZ", 0 ],
+			"obj-44::obj-8" : [ "live.text[55]", "live.text[1]", 0 ],
+			"obj-36::obj-66" : [ "live.numbox[15]", "live.numbox", 0 ],
+			"obj-27::obj-21" : [ "frames-recorded[19]", "volume", 0 ],
+			"obj-104::obj-167" : [ "record-codec[19]", "record-codec", 0 ],
+			"obj-148::obj-162" : [ "rotateY[1]", "rotateY", 0 ],
+			"obj-149::obj-91::obj-10" : [ "playFrame[1]", "playFrame", 0 ],
+			"obj-150::obj-91::obj-8" : [ "live.button[5]", "live.button", 0 ],
+			"obj-155::obj-142" : [ "mode[7]", "mode", 0 ],
+			"obj-156::obj-35" : [ "volume[8]", "volume", 0 ],
+			"obj-103::obj-8" : [ "live.text[50]", "live.text[1]", 0 ],
+			"obj-100::obj-173" : [ "live.text[12]", "live.text", 0 ],
+			"obj-14::obj-111" : [ "trans-mode[13]", "trans-mode", 0 ],
+			"obj-56::obj-56" : [ "rate-loop[14]", "rate-loop", 0 ],
+			"obj-44::obj-167" : [ "record-codec[14]", "record-codec", 0 ],
+			"obj-38::obj-177" : [ "live-in[15]", "mode", 0 ],
+			"obj-36::obj-116" : [ "smooth[35]", "smooth", 0 ],
+			"obj-148::obj-91::obj-23" : [ "live.button[88]", "live.button", 0 ],
+			"obj-149::obj-8" : [ "live.text[42]", "live.text[1]", 0 ],
+			"obj-153::obj-161" : [ "rotateZ[6]", "rotateZ", 0 ],
+			"obj-155::obj-91::obj-53" : [ "delayFrame[7]", "delayFrame", 0 ],
+			"obj-103::obj-34" : [ "scale[9]", "scale", 0 ],
+			"obj-44::obj-165" : [ "rotateX[15]", "rotateX", 0 ],
+			"obj-38::obj-8" : [ "live.text[56]", "live.text[1]", 0 ],
+			"obj-36::obj-91::obj-5" : [ "voices[17]", "voices", 0 ]
 		}
 
 	}
