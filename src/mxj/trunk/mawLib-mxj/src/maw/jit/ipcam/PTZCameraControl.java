@@ -89,6 +89,7 @@ public class PTZCameraControl {
     int ptz_patrol_left_rate;
     int ptz_patrol_right_rate;
     boolean ptz_disable_preset;
+    boolean ptz_preset_onstart;
 
     String user;
     String pwd;
@@ -107,7 +108,9 @@ public class PTZCameraControl {
     int upnp_status;
     int p2p_status;
     int p2p_local_port;
-
+    int msn_status;
+    int wifi_status;
+    
     boolean isMovingRight = false;
     boolean isMovingLeft = false;
     boolean isMovingUp = false;
@@ -1010,6 +1013,8 @@ public class PTZCameraControl {
         // var upnp_status=0;
         // var p2p_status=4;
         // var p2p_local_port=28122;
+        // var msn_status=0;
+        // var wifi_status=0;
 
         NameValuePair[] nvp = parseParameters(s);
 
@@ -1040,6 +1045,10 @@ public class PTZCameraControl {
                 p2p_status = n.getIntValue();
             } else if (n.isParam("p2p_local_port")) {
                 p2p_local_port = n.getIntValue();
+            } else if (n.isParam("msn_status")) {    
+                msn_status = n.getIntValue();
+            } else if (n.isParam("wifi_status")) {
+                wifi_status = n.getIntValue();
             } else {
                 System.err.println("UNPARSED: " + n.toString());
             }
@@ -1149,6 +1158,8 @@ public class PTZCameraControl {
                 ptz_patrol_right_rate = n.getIntValue();
             } else if (n.isParam("ptz_disable_preset")) {
                 ptz_disable_preset = n.getBooleanValue();
+            } else if (n.isParam("ptz_preset_onstart")) {
+                ptz_preset_onstart = n.getBooleanValue();
             } else {
                 System.err.println("UNPARSED: " + n.toString());
             }
