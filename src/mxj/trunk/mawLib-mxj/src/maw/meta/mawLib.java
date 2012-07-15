@@ -110,7 +110,7 @@ public class mawLib extends MaxObject implements AsyncXMLLoadedListener {
     }
 
     public void checkforupdatesnow() {
-        loadXML(mawLibReleaseXMLFile);
+        //loadXML(mawLibReleaseXMLFile);
     }
 
     /*
