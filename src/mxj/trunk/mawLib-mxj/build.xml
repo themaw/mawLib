@@ -14,9 +14,5 @@
 		<!-- copy it to the mawlib dist directory -->
 		<copy file="./dist/mawLib-mxj.jar" todir="../../../../dist/mawLib/mawLib-Support/java/" />
 
-		<!-- temporary copy in process stuff -->
-		<copy file="/Users/bakercp/Programming/java/JavaPackages/commonLib/commonLib.jar" todir="../../../../dist/mawLib/mawLib-Support/java/libs/" />
-		<copy file="/Users/bakercp/Programming/java/JavaPackages/google/GV4J/GV4J.jar" todir="../../../../dist/mawLib/mawLib-Support/java/libs/" />
-
 	</target>
 </project>

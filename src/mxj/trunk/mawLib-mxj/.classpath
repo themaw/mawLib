@@ -8,7 +8,5 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/LOGGING_SLF4J_LOG4J"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/APACHE_COMMONS_NET"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MOBILE_SMSLIB"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/GV4J"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/COMMON_LIB"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
