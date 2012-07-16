@@ -68,7 +68,7 @@ public class control extends MaxObject {
         declareAttribute("moveleft", "getMoveLeft", "setMoveLeft");
         declareAttribute("moveright", "getMoveRight", "setMoveRight");
 
-        declareAttribute("cameraon", "getCameraOn", "setCameraOn");
+        declareAttribute("camerairon", "getCameraIROn", "setCameraIROn");
 
     }
 
@@ -109,7 +109,7 @@ public class control extends MaxObject {
         outlet(getInfoIdx(), "moveleft", getMoveLeft());
         outlet(getInfoIdx(), "moveright", getMoveRight());
 
-        outlet(getInfoIdx(), "cameraon", getCameraOn());
+        outlet(getInfoIdx(), "camerairon", getCameraIROn());
 
         // force refresh
 
@@ -130,12 +130,12 @@ public class control extends MaxObject {
         }
     }
 
-    public void setCameraOn(boolean value) {
+    public void setCameraIROn(boolean value) {
         final boolean localValue = value;
         if (isConnected()) {
             (new Thread() {
                 public void run() {
-                    if (!ptz.setCameraOn(localValue)) {
+                    if (!ptz.setIROn(localValue)) {
                         error("Failed to set value: " + localValue);
                     }
                 }
@@ -145,7 +145,7 @@ public class control extends MaxObject {
         }
     }
 
-    public Atom[] getCameraOn() {
+    public Atom[] getCameraIROn() {
         if (isConnected()) {
             return new Atom[] { Atom.newAtom(ptz.isOn) };
         } else {

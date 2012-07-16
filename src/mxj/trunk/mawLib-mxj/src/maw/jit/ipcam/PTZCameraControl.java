@@ -57,8 +57,8 @@ public class PTZCameraControl {
     static int PTZ_PELCO_D_HPATROL_STOP = 21;
 
     // on / off
-    static int IO_ON = 94;
-    static int IO_OFF = 95;
+    static int IO_ON = 95;
+    static int IO_OFF = 94;
 
     int record_osd = 1;
     boolean ptz_type = false;
@@ -952,11 +952,11 @@ public class PTZCameraControl {
         }
     }
 
-    public boolean setCameraOn(boolean value) {
-        return value ? turnOn() : turnOff();
+    public boolean setIROn(boolean value) {
+        return value ? turnIROn() : turnIROff();
     }
 
-    public boolean turnOn() {
+    public boolean turnIROn() {
         if (decoder_control(IO_ON)) {
             isOn = true;
             return true;
@@ -965,7 +965,7 @@ public class PTZCameraControl {
         }
     }
 
-    public boolean turnOff() {
+    public boolean turnIROff() {
         if (decoder_control(IO_OFF)) {
             isOn = false;
             return true;
