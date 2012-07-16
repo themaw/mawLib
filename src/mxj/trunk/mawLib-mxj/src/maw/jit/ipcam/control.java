@@ -110,11 +110,32 @@ public class control extends MaxObject {
         outlet(getInfoIdx(), "moveright", getMoveRight());
 
         outlet(getInfoIdx(), "camerairon", getCameraIROn());
+        
+        // status
+        
+        outlet(getInfoIdx(), "id", getId());
+        outlet(getInfoIdx(), "sys_ver", getSysVer());
+        outlet(getInfoIdx(), "app_ver", getAppVer());
+        outlet(getInfoIdx(), "now", getNow());
+        outlet(getInfoIdx(), "tz", getTz());
+        outlet(getInfoIdx(), "alarm_status", getAlarmStatus());
+        outlet(getInfoIdx(), "ddns_status", getDDNSStatus());
+        outlet(getInfoIdx(), "ddns_host", getDDNSHost());
+        outlet(getInfoIdx(), "oray_type", getOrayType());
+        outlet(getInfoIdx(), "upnp_status", getUPNPStatus());
+        outlet(getInfoIdx(), "p2p_status", getP2PStatus());
+        outlet(getInfoIdx(), "p2p_local_port", getP2PLocalPort());
+        outlet(getInfoIdx(), "msn_status", getMSNStatus());
+        outlet(getInfoIdx(), "wifi_status", getWifiStatus());
 
+
+        
         // force refresh
 
     }
 
+    
+    
     public void forcerefresh() {
         if (isConnected()) {
             (new Thread() {
@@ -745,6 +766,137 @@ public class control extends MaxObject {
         }
     }
 
+    // get status
+    
+    public Atom[] getId() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.id) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+
+    public Atom[] getSysVer() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.sys_ver) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+    
+    public Atom[] getAppVer() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.app_ver) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+
+    public Atom[] getNow() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.now) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+
+    public Atom[] getTz() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.tz) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+    
+    public Atom[] getAlarmStatus() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.alarm_status) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+
+    public Atom[] getDDNSStatus() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.ddns_status) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+
+    public Atom[] getDDNSHost() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.ddns_host == null ? "" : ptz.ddns_host) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+
+    public Atom[] getOrayType() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.oray_type) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+    
+    public Atom[] getUPNPStatus() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.upnp_status) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+
+    public Atom[] getP2PStatus() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.p2p_status) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+
+    public Atom[] getP2PLocalPort() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.p2p_local_port) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+    
+    public Atom[] getMSNStatus() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.msn_status) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+
+    public Atom[] getWifiStatus() {
+        if (isConnected()) {
+            return new Atom[] { Atom.newAtom(ptz.wifi_status) };
+        } else {
+            error("Not connected.");
+            return null;
+        }
+    }
+
+
+    ////
+    
     public void open() {
         if (ptz == null) {
             if (username != null)
