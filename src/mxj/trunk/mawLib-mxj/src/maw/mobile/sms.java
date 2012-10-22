@@ -7,18 +7,18 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.smslib.AGateway;
+import org.smslib.AGateway.GatewayStatuses;
+import org.smslib.AGateway.Protocols;
 import org.smslib.GatewayException;
 import org.smslib.ICallNotification;
 import org.smslib.IGatewayStatusNotification;
 import org.smslib.IInboundMessageNotification;
 import org.smslib.InboundMessage;
+import org.smslib.Message.MessageTypes;
 import org.smslib.OutboundMessage;
 import org.smslib.SMSLibException;
 import org.smslib.Service;
 import org.smslib.TimeoutException;
-import org.smslib.AGateway.GatewayStatuses;
-import org.smslib.AGateway.Protocols;
-import org.smslib.Message.MessageTypes;
 import org.smslib.modem.MaxSerialInputStream;
 import org.smslib.modem.MaxSerialModemGateway;
 import org.smslib.modem.MaxSerialOutputStream;
@@ -55,9 +55,10 @@ public class sms extends MaxObject implements MaxSerialWritable, MaxSerialReadab
     ServerThread dit;
 
     // logging
+
     Logger logger;
-    Level logLevel = Level.ALL;
-    
+    Level logLevel;
+
     MaxObject serial;
 
     public sms(Atom[] args) { // service type should always be in here ...
@@ -90,10 +91,9 @@ public class sms extends MaxObject implements MaxSerialWritable, MaxSerialReadab
         out = new MaxSerialOutputStream(this); // holla back
         dit = new ServerThread(this); // will capture logger from parent
 
-        
-       // serial = new MaxObject("serial");
-        
-        //readSerialIn();
+        // serial = new MaxObject("serial");
+
+        // readSerialIn();
     }
 
     public void send(String myRecipient, String text) {
@@ -111,7 +111,7 @@ public class sms extends MaxObject implements MaxSerialWritable, MaxSerialReadab
         if (inletNum == 1) {
             serialIn(i);
         } else {
-            // 
+            //
         }
 
     }
@@ -171,18 +171,26 @@ public class sms extends MaxObject implements MaxSerialWritable, MaxSerialReadab
             logger.debug("DATE=>>" + msg.getDate() + "<==>" + msg.getDate().getTime() + "<==");
 
         if (msgType == MessageTypes.INBOUND) {
-            outlet(0, "message", new Atom[] { Atom.newAtom("inbound"),
-                    Atom.newAtom(msg.getMessageId()),
-                    Atom.newAtom(msg.getDate().getTime() + ""), // too big for numbers, send as
-                    // text!
-                    Atom.newAtom(msg.getOriginator()), Atom.newAtom(msg.getEncoding().toString()),
-                    Atom.newAtom(msg.getText()) });
+            outlet(0,
+                    "message",
+                    new Atom[] {
+                            Atom.newAtom("inbound"),
+                            Atom.newAtom(msg.getMessageId()),
+                            Atom.newAtom(msg.getDate().getTime() + ""), // too big for numbers, send
+                                                                        // as
+                            // text!
+                            Atom.newAtom(msg.getOriginator()),
+                            Atom.newAtom(msg.getEncoding().toString()), Atom.newAtom(msg.getText()) });
         } else if (msgType == MessageTypes.STATUSREPORT) {
-            outlet(0, "message", new Atom[] { Atom.newAtom("status"),
-                    Atom.newAtom(msg.getMessageId()),
-                    Atom.newAtom(msg.getDate().getTime() + ""),// too big for numbers, send as text!
-                    Atom.newAtom(msg.getOriginator()), Atom.newAtom(msg.getEncoding().toString()),
-                    Atom.newAtom(msg.getText()) });
+            outlet(0,
+                    "message",
+                    new Atom[] {
+                            Atom.newAtom("status"),
+                            Atom.newAtom(msg.getMessageId()),
+                            Atom.newAtom(msg.getDate().getTime() + ""),// too big for numbers, send
+                                                                       // as text!
+                            Atom.newAtom(msg.getOriginator()),
+                            Atom.newAtom(msg.getEncoding().toString()), Atom.newAtom(msg.getText()) });
         }
 
         try {
@@ -201,8 +209,9 @@ public class sms extends MaxObject implements MaxSerialWritable, MaxSerialReadab
 
     public void process(AGateway agateway, String callerId) {
         // add an arbitrary ring id and, java timestamp
-        outlet(0, "ring", new Atom[] { Atom.newAtom(ringId++),
-                Atom.newAtom(System.currentTimeMillis() + ""), Atom.newAtom(callerId) });
+        outlet(0, "ring",
+                new Atom[] { Atom.newAtom(ringId++), Atom.newAtom(System.currentTimeMillis() + ""),
+                        Atom.newAtom(callerId) });
     }
 
     public void process(AGateway agateway, GatewayStatuses oldStatus, GatewayStatuses newStatus) {
@@ -274,7 +283,7 @@ public class sms extends MaxObject implements MaxSerialWritable, MaxSerialReadab
                 p.outlet(p.getNumOutlets(), "serialnumber", gateway.getSerialNo());
                 p.outlet(p.getNumOutlets(), "imsi", gateway.getImsi());
                 p.outlet(p.getNumOutlets(), "signallevel", gateway.getSignalLevel());
-                p.outlet(p.getNumOutlets(), "batterylevel", gateway.getBatteryLevel()); // 
+                p.outlet(p.getNumOutlets(), "batterylevel", gateway.getBatteryLevel()); //
 
                 p.logger.debug("Connected!");
                 p.outlet(getNumOutlets(), "status", new String[] { "CONNECTED" });

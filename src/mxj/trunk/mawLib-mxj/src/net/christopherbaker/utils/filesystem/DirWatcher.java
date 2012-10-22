@@ -8,12 +8,7 @@ import java.util.Set;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 public class DirWatcher extends TimerTask {
-
-    static final Logger logger = LoggerFactory.getLogger(DirWatcher.class);
 
     Timer t = null;
 

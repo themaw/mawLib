@@ -8,8 +8,18 @@
 		<jar jarfile="./dist/mawLib-mxj.jar">
 			<fileset dir="./bin" includes="**/*.class" excludes="**/Test*.class" />
 			<fileset dir="./bin" includes="**/*.txt" />
-
+			<!-- common lib -->
+			<zipfileset src="./libs/commonLib/commonLib.jar" />
+			<!-- gv4j -->
+			<zipfileset src="./libs/GV4J/GV4J.jar" />
+			<!-- twitter4j -->
+			<zipfileset src="./libs/twitter4J/twitter4j-async-2.2.6.jar" />
+			<zipfileset src="./libs/twitter4J/twitter4j-core-2.2.6.jar" />
+			<zipfileset src="./libs/twitter4J/twitter4j-examples-2.2.6.jar" />
+			<zipfileset src="./libs/twitter4J/twitter4j-media-support-2.2.6.jar" />
+			<zipfileset src="./libs/twitter4J/twitter4j-stream-2.2.6.jar" />
 		</jar>
+
 
 		<!-- copy it to the mawlib dist directory -->
 		<copy file="./dist/mawLib-mxj.jar" todir="../../../../dist/mawLib/mawLib-Support/java/" />

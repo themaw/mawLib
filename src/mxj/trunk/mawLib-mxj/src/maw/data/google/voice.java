@@ -17,9 +17,6 @@ import net.christopherbaker.google.voice.json.GVPhoneCall;
 import net.christopherbaker.google.voice.manager.GVManager;
 import net.christopherbaker.google.voice.manager.GVManagerListener;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.cycling74.max.Atom;
 import com.cycling74.max.DataTypes;
 import com.cycling74.max.MaxObject;
@@ -29,8 +26,6 @@ import com.cycling74.max.MaxObject;
  */
 
 public class voice extends MaxObject implements GVManagerListener {
-
-    static final Logger logger = LoggerFactory.getLogger(voice.class.getName());
 
     // not sure
 
@@ -42,8 +37,6 @@ public class voice extends MaxObject implements GVManagerListener {
     int OUTLET_SETTINGS = 3;
 
     public voice(Atom[] args) {
-
-        logger.debug("Initializing.");
 
         gvm = new GVManager(this);
 
@@ -291,7 +284,7 @@ public class voice extends MaxObject implements GVManagerListener {
         if (success) {
             outlet(getInfoIdx(), "logged_in", 1);
         } else {
-            logger.error("Error logging in.");
+            error("Error logging in.");
         }
     }
 
@@ -299,7 +292,7 @@ public class voice extends MaxObject implements GVManagerListener {
         if (success) {
             outlet(getInfoIdx(), "logged_in", 0);
         } else {
-            logger.error("Error logging out.");
+            error("Error logging out.");
         }
     }
 

@@ -3,9 +3,6 @@ package net.christopherbaker.utils.filesystem;
 import java.io.File;
 import java.io.FilenameFilter;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 public class EasyFilenameFilter implements FilenameFilter {
 
     public enum MatchType {
@@ -13,8 +10,6 @@ public class EasyFilenameFilter implements FilenameFilter {
     }
 
     MatchType matchType = MatchType.END;
-
-    static final Logger logger = LoggerFactory.getLogger(EasyFilenameFilter.class);
 
     String[] filters;
     boolean allowDirectories = false;
@@ -47,8 +42,6 @@ public class EasyFilenameFilter implements FilenameFilter {
         this.filters = filters;
         this.allowDirectories = allowDirectories;
         this.matchType = matchType;
-        logger.debug("EXT={} allowDirs={} matchType={}", new Object[] { filters, allowDirectories,
-                matchType });
 
     }
 
@@ -74,9 +67,8 @@ public class EasyFilenameFilter implements FilenameFilter {
 
     public File[] filter(File folder) {
         if (folder.isDirectory()) { return folder.listFiles(this); }
-        logger.error("FOLDER={} is not a directory", folder);
+        System.err.println("FOLDER=" + folder + " is not a directory");
         return null;
 
     }
-
 }

@@ -1,15 +1,10 @@
 package maw.util;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.cycling74.max.Atom;
 import com.cycling74.max.DataTypes;
 import com.cycling74.max.MaxObject;
 
 public class messagestocellblock extends MaxObject {
-
-    static final Logger logger = LoggerFactory.getLogger(messagestocellblock.class);
 
     long currentrow = 0;
     boolean showwarnings = true;
