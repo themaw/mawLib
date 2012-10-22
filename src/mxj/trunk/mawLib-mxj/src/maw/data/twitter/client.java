@@ -1,32 +1,38 @@
 package maw.data.twitter;
 
-import java.util.List;
-
 import javax.swing.JOptionPane;
 
+import twitter4j.AccountSettings;
+import twitter4j.AccountTotals;
 import twitter4j.AsyncTwitter;
 import twitter4j.AsyncTwitterFactory;
 import twitter4j.Category;
 import twitter4j.DirectMessage;
+import twitter4j.Friendship;
 import twitter4j.IDs;
 import twitter4j.Location;
 import twitter4j.PagableResponseList;
 import twitter4j.Place;
+import twitter4j.ProfileImage;
 import twitter4j.QueryResult;
 import twitter4j.RateLimitStatus;
+import twitter4j.RelatedResults;
 import twitter4j.Relationship;
 import twitter4j.ResponseList;
+import twitter4j.SimilarPlaces;
 import twitter4j.Status;
 import twitter4j.Trends;
+import twitter4j.TwitterAPIConfiguration;
 import twitter4j.TwitterException;
 import twitter4j.TwitterListener;
 import twitter4j.TwitterMethod;
 import twitter4j.User;
 import twitter4j.UserList;
+import twitter4j.api.HelpMethods.Language;
+import twitter4j.auth.AccessToken;
+import twitter4j.auth.RequestToken;
 import twitter4j.conf.Configuration;
 import twitter4j.conf.ConfigurationContext;
-import twitter4j.http.AccessToken;
-import twitter4j.http.RequestToken;
 
 import com.cycling74.max.DataTypes;
 import com.cycling74.max.MaxObject;
@@ -48,16 +54,18 @@ public class client extends MaxObject implements TwitterListener {
 
     */
     String username = null;
-    String accessToken = null;
 
     String twitterClientVersion = "1.0";
     String twitterClientURL = "http://dev.minneapolisartonwheels.org/maw.data.twitter.xml";
     String twitterUserAgent = "maw.data.twitter /1.0";
     String twitterSource = "maw.data.twitter";
 
-    String oAuthToken = "1vhWCLIOOuSnoMEdNNVsGg";
-    String oAuthSecretToken = "BNDM41xSoFI8vpjRio9epBmDO2I0sVIFGeqiVEhn4";
-
+    String consumerKey = "UNDEFINED";
+    String consumerSecret = "UNDEFINED";
+    String accessToken = "UNDEFINED";
+    String accessTokenSecret = "UNDEFINED";
+    
+    
     // queries
     String query = "MAW";
     String lang = "";
@@ -66,6 +74,7 @@ public class client extends MaxObject implements TwitterListener {
 
     Thread authorizationThread = null;
 
+    
     public client() {
 
         post("Twitter version!");
@@ -108,82 +117,101 @@ public class client extends MaxObject implements TwitterListener {
         Configuration conf = ConfigurationContext.getInstance();
         
        
-                    AsyncTwitter twitter = new AsyncTwitterFactory(this).getInstance();
-                    
-                   // twitter.setOAuthConsumer(oAuthToken, oAuthSecretToken);
-
-                 //   setOAuthConsumer(java.lang.String consumerKey, java.lang.String consumerSecret) 
-                    
-                    RequestToken requestToken = null;
-
-                    try {
-                        post("REQUESTING TOKEN");
-                        requestToken = twitter.getOAuthRequestToken();
-                        
-                      
-                        
-                    } catch (TwitterException e) {
-                        error("Unable to get authorization URL :" + e.getStatusCode() + " error.");
-                        e.printStackTrace();
-                        return;
-                    }
-
-                    post("in here!!");
-
-                    AccessToken accessToken = null;
-
-                    String authorizationUrl = (String) JOptionPane.showInputDialog(null,
-                            "Paste this link into a web browser:", "OAuth Dialog",
-                            JOptionPane.PLAIN_MESSAGE, null, null,
-                            requestToken.getAuthorizationURL());
-
-                    if (authorizationUrl == null) {
-                        error("Authorization cancelled.");
-                        return;
-                    }
-
-                    String pin = (String) JOptionPane.showInputDialog(null,
-                            "Type in the PIN Number proved by Twitter:", "OAuth Pin",
-                            JOptionPane.PLAIN_MESSAGE, null, null, "");
-
-                    if (pin == null) {
-                        error("Authorization cancelled.");
-                        return;
-                    }
-
-                    // If a string was returned, say so.
-                    if (pin.length() > 0) {
-                        try {
-                            accessToken = twitter.getOAuthAccessToken(requestToken, pin);
-                        } catch (TwitterException e) {
-                            error("Unable to get authorization URL :" + e.getStatusCode()
-                                    + " error.");
-                            e.printStackTrace();
-                            return;
-                        }
-
-                        System.out.println("accessToken=" + accessToken);
-
-                        User user = null;
-                        try {
-                            user = twitter.verifyCredentials();
-                        } catch (TwitterException e) {
-                            // TODO Auto-generated catch block
-                            e.printStackTrace();
-                        }
-
-                        System.out.println("userid=" + user.getId());
-                        System.out.println("name=" + user.getName());
-                        System.out.println("token=" + accessToken.getToken());
-                        System.out.println("token secret=" + accessToken.getTokenSecret());
-
-                        // setLabel("Green eggs and... " + s + "!");
-                        return;
-                    }
-
-                }
+        // AsyncTwitter twitter = new AsyncTwitterFactory(this).getInstance();
+//                    
+//                   // twitter.setOAuthConsumer(oAuthToken, oAuthSecretToken);
+//
+//                 //   setOAuthConsumer(java.lang.String consumerKey, java.lang.String consumerSecret) 
+//                    
+//                    RequestToken requestToken = null;
+//
+//                    try {
+//                        post("REQUESTING TOKEN");
+//                        requestToken = twitter.getOAuthRequestToken();
+//                        
+//                      
+//                        
+//                    } catch (TwitterException e) {
+//                        error("Unable to get authorization URL :" + e.getStatusCode() + " error.");
+//                        e.printStackTrace();
+//                        return;
+//                    }
+//
+//                    post("in here!!");
+//
+//                    AccessToken accessToken = null;
+//
+//                    String authorizationUrl = (String) JOptionPane.showInputDialog(null,
+//                            "Paste this link into a web browser:", "OAuth Dialog",
+//                            JOptionPane.PLAIN_MESSAGE, null, null,
+//                            requestToken.getAuthorizationURL());
+//
+//                    if (authorizationUrl == null) {
+//                        error("Authorization cancelled.");
+//                        return;
+//                    }
+//
+//                    String pin = (String) JOptionPane.showInputDialog(null,
+//                            "Type in the PIN Number proved by Twitter:", "OAuth Pin",
+//                            JOptionPane.PLAIN_MESSAGE, null, null, "");
+//
+//                    if (pin == null) {
+//                        error("Authorization cancelled.");
+//                        return;
+//                    }
+//
+//                    // If a string was returned, say so.
+//                    if (pin.length() > 0) {
+//                        try {
+//                            accessToken = twitter.getOAuthAccessToken(requestToken, pin);
+//                        } catch (TwitterException e) {
+//                            error("Unable to get authorization URL :" + e.getStatusCode()
+//                                    + " error.");
+//                            e.printStackTrace();
+//                            return;
+//                        }
+//
+//                        System.out.println("accessToken=" + accessToken);
+//
+//                        User user = null;
+//                        try {
+//                            user = twitter.verifyCredentials();
+//                        } catch (TwitterException e) {
+//                            // TODO Auto-generated catch block
+//                            e.printStackTrace();
+//                        }
+//
+//                        System.out.println("userid=" + user.getId());
+//                        System.out.println("name=" + user.getName());
+//                        System.out.println("token=" + accessToken.getToken());
+//                        System.out.println("token secret=" + accessToken.getTokenSecret());
+//
+//                        // setLabel("Green eggs and... " + s + "!");
+//                        return;
+//                    }
+//
+//                }
           
     }
+
+
+boolean hasConsumerKey() {
+    return consumerKey != null && consumerKey.compareToIgnoreCase("UNDEFINED") != 0;
+}
+
+boolean hasConsumerSecret() {
+    return consumerSecret != null && consumerSecret.compareToIgnoreCase("UNDEFINED") != 0;
+    
+}
+boolean hasAccessToken() {
+    return accessToken != null && accessToken.compareToIgnoreCase("UNDEFINED") != 0;
+
+}
+boolean hasAccessTokenSecret() {
+    return accessTokenSecret != null && accessTokenSecret.compareToIgnoreCase("UNDEFINED") != 0;
+
+}
+
 
     /*
     // twitter client
@@ -289,82 +317,112 @@ public class client extends MaxObject implements TwitterListener {
         // }
     }
 
-    public void addedUserListMember(UserList userlist) {
+    public void addedUserListMember(UserList arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void checkedUserListMembership(User user) {
+    public void addedUserListMembers(UserList arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void checkedUserListSubscription(User user) {
+    public void checkedUserListMembership(User arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void createdBlock(User user) {
+    public void checkedUserListSubscription(User arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void createdFavorite(Status status) {
+    public void createdBlock(User arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void createdFriendship(User user) {
+    public void createdFavorite(Status arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void createdUserList(UserList userlist) {
+    public void createdFriendship(User arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void deletedUserListMember(UserList userlist) {
+    public void createdPlace(Place arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void destroyedBlock(User user) {
+    public void createdUserList(UserList arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void destroyedDirectMessage(DirectMessage directmessage) {
+    public void deletedUserListMember(UserList arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void destroyedFavorite(Status status) {
+    public void destroyedBlock(User arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void destroyedFriendship(User user) {
+    public void destroyedDirectMessage(DirectMessage arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void destroyedStatus(Status status) {
+    public void destroyedFavorite(Status arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void destroyedUserList(UserList userlist) {
+    public void destroyedFriendship(User arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void disabledNotification(User user) {
+    public void destroyedStatus(Status arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void enabledNotification(User user) {
+    public void destroyedUserList(UserList arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void disabledNotification(User arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void enabledNotification(User arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotAPIConfiguration(TwitterAPIConfiguration arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotAccountSettings(AccountSettings arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotAccountTotals(AccountTotals arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotAllUserLists(ResponseList<UserList> arg0) {
         // TODO Auto-generated method stub
         
     }
@@ -379,17 +437,22 @@ public class client extends MaxObject implements TwitterListener {
         
     }
 
-    public void gotBlockingUsersIDs(IDs ids) {
+    public void gotBlockingUsersIDs(IDs arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void gotCurrentTrends(Trends trends) {
+    public void gotCurrentTrends(Trends arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void gotDailyTrends(List<Trends> arg0) {
+    public void gotDailyTrends(ResponseList<Trends> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotDirectMessage(DirectMessage arg0) {
         // TODO Auto-generated method stub
         
     }
@@ -399,12 +462,12 @@ public class client extends MaxObject implements TwitterListener {
         
     }
 
-    public void gotExistsBlock(boolean flag) {
+    public void gotExistsBlock(boolean arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void gotExistsFriendship(boolean flag) {
+    public void gotExistsFriendship(boolean arg0) {
         // TODO Auto-generated method stub
         
     }
@@ -414,32 +477,17 @@ public class client extends MaxObject implements TwitterListener {
         
     }
 
-    public void gotFollowersIDs(IDs ids) {
+    public void gotFollowersIDs(IDs arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void gotFollowersStatuses(PagableResponseList<User> arg0) {
+    public void gotFriendsIDs(IDs arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void gotFriendsIDs(IDs ids) {
-        // TODO Auto-generated method stub
-        
-    }
-
-    public void gotFriendsStatuses(PagableResponseList<User> arg0) {
-        // TODO Auto-generated method stub
-        
-    }
-
-    public void gotFriendsTimeline(ResponseList<Status> arg0) {
-        // TODO Auto-generated method stub
-        
-    }
-
-    public void gotGeoDetails(Place place) {
+    public void gotGeoDetails(Place arg0) {
         // TODO Auto-generated method stub
         
     }
@@ -449,12 +497,22 @@ public class client extends MaxObject implements TwitterListener {
         
     }
 
-    public void gotIncomingFriendships(IDs ids) {
+    public void gotIncomingFriendships(IDs arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void gotLocationTrends(Trends trends) {
+    public void gotLanguages(ResponseList<Language> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotLocationTrends(Trends arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotMemberSuggestions(ResponseList<User> arg0) {
         // TODO Auto-generated method stub
         
     }
@@ -464,22 +522,32 @@ public class client extends MaxObject implements TwitterListener {
         
     }
 
-    public void gotNearByPlaces(ResponseList<Place> arg0) {
+    public void gotNoRetweetIds(IDs arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void gotOutgoingFriendships(IDs ids) {
+    public void gotOutgoingFriendships(IDs arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void gotPublicTimeline(ResponseList<Status> arg0) {
+    public void gotPrivacyPolicy(String arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void gotRateLimitStatus(RateLimitStatus ratelimitstatus) {
+    public void gotProfileImage(ProfileImage arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotRateLimitStatus(RateLimitStatus arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotRelatedResults(RelatedResults arg0) {
         // TODO Auto-generated method stub
         
     }
@@ -489,7 +557,7 @@ public class client extends MaxObject implements TwitterListener {
         
     }
 
-    public void gotRetweetedByIDs(IDs ids) {
+    public void gotRetweetedByIDs(IDs arg0) {
         // TODO Auto-generated method stub
         
     }
@@ -499,7 +567,17 @@ public class client extends MaxObject implements TwitterListener {
         
     }
 
+    public void gotRetweetedByUser(ResponseList<Status> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
     public void gotRetweetedToMe(ResponseList<Status> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotRetweetedToUser(ResponseList<Status> arg0) {
         // TODO Auto-generated method stub
         
     }
@@ -524,17 +602,22 @@ public class client extends MaxObject implements TwitterListener {
         
     }
 
-    public void gotShowFriendship(Relationship relationship) {
+    public void gotShowFriendship(Relationship arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void gotShowStatus(Status status) {
+    public void gotShowStatus(Status arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void gotShowUserList(UserList userlist) {
+    public void gotShowUserList(UserList arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotSimilarPlaces(SimilarPlaces arg0) {
         // TODO Auto-generated method stub
         
     }
@@ -544,12 +627,12 @@ public class client extends MaxObject implements TwitterListener {
         
     }
 
-    public void gotTrends(Trends trends) {
+    public void gotTermsOfService(String arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void gotUserDetail(User user) {
+    public void gotUserDetail(User arg0) {
         // TODO Auto-generated method stub
         
     }
@@ -594,7 +677,12 @@ public class client extends MaxObject implements TwitterListener {
         
     }
 
-    public void gotWeeklyTrends(List<Trends> arg0) {
+    public void gotWeeklyTrends(ResponseList<Trends> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void lookedUpFriendships(ResponseList<Friendship> arg0) {
         // TODO Auto-generated method stub
         
     }
@@ -604,22 +692,27 @@ public class client extends MaxObject implements TwitterListener {
         
     }
 
-    public void onException(TwitterException twitterexception, TwitterMethod twittermethod) {
+    public void onException(TwitterException arg0, TwitterMethod arg1) {
         // TODO Auto-generated method stub
         
     }
 
-    public void reportedSpam(User user) {
+    public void reportedSpam(User arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void retweetedStatus(Status status) {
+    public void retweetedStatus(Status arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void searched(QueryResult queryresult) {
+    public void searched(QueryResult arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void searchedPlaces(ResponseList<Place> arg0) {
         // TODO Auto-generated method stub
         
     }
@@ -629,65 +722,72 @@ public class client extends MaxObject implements TwitterListener {
         
     }
 
-    public void sentDirectMessage(DirectMessage directmessage) {
+    public void sentDirectMessage(DirectMessage arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void subscribedUserList(UserList userlist) {
+    public void subscribedUserList(UserList arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void tested(boolean flag) {
+    public void tested(boolean arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void unsubscribedUserList(UserList userlist) {
+    public void unsubscribedUserList(UserList arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void updatedDeliveryDevice(User user) {
+    public void updatedAccountSettings(AccountSettings arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void updatedProfile(User user) {
+    public void updatedFriendship(Relationship arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void updatedProfileBackgroundImage(User user) {
+    public void updatedProfile(User arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void updatedProfileColors(User user) {
+    public void updatedProfileBackgroundImage(User arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void updatedProfileImage(User user) {
+    public void updatedProfileColors(User arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void updatedStatus(Status status) {
+    public void updatedProfileImage(User arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void updatedUserList(UserList userlist) {
+    public void updatedStatus(Status arg0) {
         // TODO Auto-generated method stub
         
     }
 
-    public void verifiedCredentials(User user) {
+    public void updatedUserList(UserList arg0) {
         // TODO Auto-generated method stub
         
     }
+
+    public void verifiedCredentials(User arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+
 
     /*
 
