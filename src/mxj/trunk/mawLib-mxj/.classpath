@@ -7,13 +7,12 @@
 	<classpathentry kind="src" path="/GV4J"/>
 	<classpathentry kind="lib" path="libs/commonLib/commonLib.jar"/>
 	<classpathentry kind="lib" path="libs/GV4J/GV4J.jar"/>
-	<classpathentry kind="lib" path="libs/twitter4j/twitter4j-async-2.2.6.jar"/>
-	<classpathentry kind="lib" path="libs/twitter4j/twitter4j-core-2.2.6.jar"/>
-	<classpathentry kind="lib" path="libs/twitter4j/twitter4j-examples-2.2.6.jar"/>
-	<classpathentry kind="lib" path="libs/twitter4j/twitter4j-media-support-2.2.6.jar"/>
-	<classpathentry kind="lib" path="libs/twitter4j/twitter4j-stream-2.2.6.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MOBILE_SMSLIB"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/LOGGING_SLF4J"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/LOGGING_SLF4J_LOG4J"/>
+	<classpathentry kind="lib" path="libs/twitter4j/twitter4j-async-3.0.3.jar"/>
+	<classpathentry kind="lib" path="libs/twitter4j/twitter4j-core-3.0.3.jar"/>
+	<classpathentry kind="lib" path="libs/twitter4j/twitter4j-media-support-3.0.3.jar"/>
+	<classpathentry kind="lib" path="libs/twitter4j/twitter4j-stream-3.0.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

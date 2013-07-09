@@ -2,6 +2,7 @@ package maw.data.twitter;
 
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 import twitter4j.AccountSettings;
 import twitter4j.AccountTotals;
@@ -12,28 +13,29 @@ import twitter4j.DirectMessage;
 import twitter4j.Friendship;
 import twitter4j.IDs;
 import twitter4j.Location;
+import twitter4j.OEmbed;
 import twitter4j.PagableResponseList;
 import twitter4j.Place;
-import twitter4j.ProfileImage;
 import twitter4j.QueryResult;
 import twitter4j.RateLimitStatus;
 import twitter4j.RelatedResults;
 import twitter4j.Relationship;
 import twitter4j.ResponseList;
+import twitter4j.SavedSearch;
 import twitter4j.SimilarPlaces;
 import twitter4j.Status;
 import twitter4j.StatusUpdate;
 import twitter4j.Trends;
-import twitter4j.Tweet;
 import twitter4j.TwitterAPIConfiguration;
 import twitter4j.TwitterException;
 import twitter4j.TwitterListener;
 import twitter4j.TwitterMethod;
 import twitter4j.User;
 import twitter4j.UserList;
-import twitter4j.api.HelpMethods.Language;
+import twitter4j.api.HelpResources.Language;
 import twitter4j.auth.AccessToken;
 import twitter4j.auth.OAuthAuthorization;
+import twitter4j.auth.RequestToken;
 import twitter4j.conf.ConfigurationBuilder;
 
 import com.cycling74.max.Atom;
@@ -48,7 +50,7 @@ public class client extends MaxObject implements TwitterListener {
 
     boolean debug = false;
 
-    String twitterClientVersion = "1.0";
+    String twitterClientVersion = "1.1";
     String twitterClientURL = "http://dev.minneapolisartonwheels.org/maw.data.twitter.xml";
     String twitterUserAgent = "maw.data.twitter /2.0";
     String twitterSource = "maw.data.twitter";
@@ -433,10 +435,10 @@ public class client extends MaxObject implements TwitterListener {
 
     }
 
-    public void gotLanguages(ResponseList<Language> arg0) {
-        if (debug) post("checkedUserListMembership not implemented");
-
-    }
+//    public void gotLanguages(ResponseList<Language> arg0) {
+//        if (debug) post("checkedUserListMembership not implemented");
+//
+//    }
 
     public void gotLocationTrends(Trends arg0) {
         if (debug) post("checkedUserListMembership not implemented");
@@ -468,10 +470,10 @@ public class client extends MaxObject implements TwitterListener {
 
     }
 
-    public void gotProfileImage(ProfileImage arg0) {
-        if (debug) post("checkedUserListMembership not implemented");
-
-    }
+//    public void gotProfileImage(ProfileImage arg0) {
+//        if (debug) post("checkedUserListMembership not implemented");
+//
+//    }
 
     public void gotRateLimitStatus(RateLimitStatus arg0) {
         if (debug) post("checkedUserListMembership not implemented");
@@ -636,15 +638,17 @@ public class client extends MaxObject implements TwitterListener {
     }
 
     public void searched(QueryResult results) {
-        List<Tweet> tweets = results.getTweets();
-        Iterator<Tweet> tweetIterator = tweets.iterator();
+        List<Status> tweets = results.getTweets();
+        Iterator<Status> tweetIterator = tweets.iterator();
         lastid = Math.max(results.getMaxId(), lastid);
 
         while (tweetIterator.hasNext()) {
-            Tweet t = tweetIterator.next();
+            Status t = tweetIterator.next();
 
             Atom[] outputArray = new Atom[] { Atom.newAtom(Long.toString(t.getId())),
-                    Atom.newAtom(t.getFromUserId()), Atom.newAtom(t.getFromUser()),
+                    Atom.newAtom(t.getUser().getId()), 
+                    Atom.newAtom(t.getUser().getScreenName()),
+                    Atom.newAtom(t.getUser().getName()),
                     Atom.newAtom(t.getText()),
                     Atom.newAtom(Long.toString(t.getCreatedAt().getTime())) };
 
@@ -740,6 +744,132 @@ public class client extends MaxObject implements TwitterListener {
 
     public void verifiedCredentials(User user) {
         if (debug) post("Verified creds called for:" + user.getName());
+    }
+
+    public void createdSavedSearch(SavedSearch arg0) {
+        if (debug) post("Created Saved Search: " + arg0);
+        
+    }
+
+    public void createdUserListMember(UserList arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void createdUserListMembers(UserList arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void destroyedSavedSearch(SavedSearch arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void destroyedUserListMember(UserList arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotBlockIDs(IDs arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotBlocksList(ResponseList<User> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotClosestTrends(ResponseList<Location> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotContributees(ResponseList<User> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotContributors(ResponseList<User> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotFollowersList(PagableResponseList<User> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotFriendsList(PagableResponseList<User> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotLanguages(ResponseList<Language> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotOAuthAccessToken(AccessToken arg0) {
+        
+        Atom[] outputArray = new Atom[] { Atom.newAtom("oauthaccesstoken"),
+                Atom.newAtom(arg0.toString())};
+
+        outlet(getInfoIdx(), outputArray);
+
+    }
+
+    public void gotOAuthRequestToken(RequestToken arg0) {
+        
+        Atom[] outputArray = new Atom[] { Atom.newAtom("oauthrequesttoken"),
+                Atom.newAtom(arg0.toString())};
+
+        outlet(getInfoIdx(), outputArray);
+        
+    }
+
+    public void gotOEmbed(OEmbed arg0) {
+        Atom[] outputArray = new Atom[] { Atom.newAtom("oembed"),
+                Atom.newAtom(arg0.toString())};
+
+        outlet(getInfoIdx(), outputArray);
+        
+    }
+
+    public void gotPlaceTrends(Trends arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotRateLimitStatus(Map<String, RateLimitStatus> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotSavedSearch(SavedSearch arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotSavedSearches(ResponseList<SavedSearch> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void gotUserLists(ResponseList<UserList> arg0) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void removedProfileBanner() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public void updatedProfileBanner() {
+        // TODO Auto-generated method stub
+        
     }
 
 }
